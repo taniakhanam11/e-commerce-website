@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start-tech Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <!-- -------====== header section start  ======------- -->
+    <header>
+        <div class="header-top-area bg-area">
+            <div class="container">
+                <div class="header-top">
+                    <div class="header-logo">
+                        <a href="index.html"><img src="images/logo-2-300x85.png" alt=""></a>
+                    </div>
+                    <div class="header-search d-flex">
+                        <input type="text" placeholder="Search">
+                        <div class="search-icon">
+                            <a href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="header-right">
+                        <div class="icon-cards">
+                            <div class="header-right-icon">
+                                <a href="#"><i class="fa-solid fa-gift"></i></a>
+                            </div>
+                            <div class="header-right-content">
+                                <a href="offers.html">
+                                    <h3>Offers</h3>
+                                </a>
+                                <p>Latest Offers</p>
+                            </div>
+                        </div>
+
+                        <div class="icon-cards">
+                            <div class="header-right-icon">
+                                <a href="#"><i class="fa-solid fa-bolt"></i></a>
+                            </div>
+                            <div class="header-right-content">
+                                <a href="deals.html">
+                                    <h3>10.10 Deal</h3>
+                                </a>
+                                <p>Spacial Deals</p>
+                            </div>
+                        </div>
+
+                        <div class="icon-cards">
+                            <div class="header-right-icon">
+                                <a href="#"><i class="fa-solid fa-user"></i></a>
+                            </div>
+                            <div class="header-right-content">
+                                <a href="account.html">
+                                    <h3>Account</h3>
+                                </a>
+                                <p>Resester or login</p>
+                            </div>
+                        </div>
+
+                        <div class="icon-cards">
+                            <div class="header-right-search">
+                                <a href="pc-builder.html" class="header-top-btn">PC Builder</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- navber section start  -->
+        <div class="teach-top-area bg-area">
+            <div class="container">
+                <input type="checkbox" id="menu-bar">
+                <!-- mb header start  -->
+                <div class="mb-header-tab">
+                    <label for="menu-bar">
+                    <i class="fa-solid fa-bars"></i>
+                   </label>
+                    <div class="mb-header-logo">
+                        <img src="images/logo-2-300x85.png" alt="">
+                    </div>
+                    <div class="mb-header-icon d-flex">
+                        <div class="mbsearch d-flex">
+                            <i class="fa-solid fa-magnifying-glass search"></i>
+                            <input type="text" placeholder="Search" id="search">
+                        </div>
+
+                        <div class="btn-cart4" onclick="showMenu4()">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                    <div class="cart-design4">
+                        <div class="cart-header4">
+                            <h2>YOUR CART</h2>
+                            <span class="close4" onclick="closeMenu4()"> 
+                                <i class="fa-solid fa-xmark"></i>
+                            </span>
+                        </div>
+                        <div class="content4">
+                            <div class="empty-content4">
+                                <p>Your shopping cart is empty!</p>
+                            </div>
+                        </div>
+                        <div class="cart-bottom4">
+                            <div class="promotion-code4">
+                                <div class="input-group4">
+                                    <input type="text" placeholder="Promo code" id="">
+                                    <span class="input-group-btn4">
+                                        <button class="btn" type="submit">Apply</button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="total">
+                                <div class="title">Sub-Total</div>
+                                <div class="amount">0৳</div>
+                            </div>
+                            <div class="total">
+                                <div class="title">Total</div>
+                                <div class="amount">0৳</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- mb bottom tab start -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mb-bottom-tab">
+                            <a href="offers.html"><i class="fa-solid fa-gift"></i>
+                                <h5>Offers</h5>
+                            </a>
+                            <a href="deals.html"><i class="fa-solid fa-bolt"></i>
+                                <h5>Deals</h5>
+                            </a>
+                            <a href="pc-builder.html"><i class="fa-sharp fa-solid fa-desktop"></i>
+                                <h5>PC Builder</h5>
+                            </a>
+                            <div class="fixed-btn-compare3">
+                                <div class="btn-compare3" onclick="showMenu3()">
+                                    <i class="fa-solid fa-copy"></i>
+                                    <h5>Compare (0)</h5>
+                                </div>
+                                <div class="btn-compare-design3">
+                                    <div class="cart-header3">
+                                        <h2>Compare Product</h2>
+                                        <span class="btn-compare-close3" onclick="closeMenu3()">
+                                         <i class="fa-solid fa-xmark"></i>
+                                        </span>
+                                    </div>
+                                    <div class="empty-content3">
+                                        <p>Your compare list is empty</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="account.html"><i class="fa-solid fa-user"></i>
+                                <h5>Account</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- mb bottom tab start -->
+                <nav class="navber">
+                    <ul>
+                        <li><a href="desktop.html" class="menu">Desktop</a>
+                            <ul class="desktop">
+                                <li><a href="#">Special PC</a></li>
+                                <li><a href="#">Star PC<i class="fas fa-caret-down"></i></a>
+                                    <ul class="start-pc">
+                                        <li> <a href="#">Intel PC</a></li>
+                                        <li> <a href="#">RYZEN PC</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Gaming PC<i class="fas fa-caret-down"></i></a>
+                                    <ul class="gamming-pc">
+                                        <li><a href="#">Intel PC</a></li>
+                                        <li><a href="#">RYZEN PC</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"> Brand PC<i class="fas fa-caret-down"></i></a>
+                                    <ul class="brand-pc">
+                                        <li><a href="#">Acer</a></li>
+                                        <li><a href="#">Asus</a></li>
+                                        <li><a href="#">Dell</a></li>
+                                        <li><a href="#"> HP</a></li>
+                                        <li><a href="#">Lenovo</a></li>
+                                        <li><a href="#">Walton</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">All in one PC<i class="fas fa-caret-down"></i></a>
+                                    <ul class="all-in">
+                                        <li><a href="#">DELL</a></li>
+                                        <li><a href="#">i-Life</a></li>
+                                        <li><a href="#"> HP</a></li>
+                                        <li><a href="#">ASUS</a></li>
+                                        <li><a href="#">LENOVO</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Portable Mini PC<i class="fas fa-caret-down"></i></a>
+                                    <ul class="portable">
+                                        <li><a href="#">Asus</a></li>
+                                        <li><a href="#">Intel</a></li>
+                                        <li><a href="#"> GIGABYTE</a></li>
+                                        <li><a href="#">Zotac</a></li>
+                                        <li><a href="#">Chuwi</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Apple Mac Mini</a></li>
+                                <li><a href="#">Apple iMac</a></li>
+                                <li><a href="#">Apple Mac Studio</a></li>
+                                <li><a href="#">Budget PC</a></li>
+                                <li><a href="#">Show All Desktop</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- laptop drop-down start  -->
+                        <li><a href="" class="menu">Laptop</a>
+                            <ul class="lapotop">
+                                <li><a href="#">All Laptop<i class="fas fa-caret-down"></i></a>
+                                    <ul class="all-laptop">
+                                        <li><a href="#">Asus</a></li>
+                                        <li><a href="#">Razer</a></li>
+                                        <li><a href="#">MacBook</a></li>
+                                        <li><a href="#"> Microsoft</a></li>
+                                        <li><a href="#">HP</a></li>
+                                        <li><a href="#">Dell</a></li>
+                                        <li><a href="#">Lenovo</a></li>
+                                        <li><a href="#">Asus</a></li>
+                                        <li><a href="#">Acer</a></li>
+                                        <li><a href="#"> MSI</a></li>
+                                        <li><a href="#">Gigabyte</a></li>
+                                        <li><a href="#">Huawei</a></li>
+                                        <li><a href="#">AVITA_Laptop</a></li>
+                                        <li><a href="#">Xiaomi</a></li>
+                                        <li><a href="#">Realme</a></li>
+                                        <li><a href="#">Samsung</a></li>
+                                        <li><a href="#">Walton</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Gaming Laptop<i class="fas fa-caret-down"></i></a>
+                                    <ul class="gaming-laptop">
+                                        <li><a href="#">RAZER</a></li>
+                                        <li><a href="#">HP</a></li>
+                                        <li><a href="#"> Asus</a></li>
+                                        <li><a href="#">MSI</a></li>
+                                        <li><a href="#"> GIGABYTE</a></li>
+                                        <li><a href="#">Acer</a></li>
+                                        <li><a href="#">Dell</a></li>
+                                        <li><a href="#">Lenovo</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Premium Ultrabook</a></li>
+                                <li><a href="#">Laptop Bag</a></li>
+                                <li><a href="#">External Graphics Enclosure</a></li>
+                                <li><a href="#">Laptop Accessories</a></li>
+                                <li><a href="#">Show All Laptop</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Component drop-down start  -->
+                        <li><a href="" class="menu">Component</a>
+                            <ul>
+                                <li><a href="#">Premium Ultrabook</a></li>
+                                <li><a href="#">Laptop Bag</a></li>
+                                <li><a href="#">External Graphics Enclosure</a></li>
+                                <li><a href="#">Laptop Accessories</a></li>
+                                <li><a href="#">Show All Laptop</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Monitor drop-down start  -->
+                        <li><a href="" class="menu">Monitor</a>
+                            <ul>
+                                <li><a href="#">Premium Ultrabook</a></li>
+                                <li><a href="#">Laptop Bag</a></li>
+                                <li><a href="#">External Graphics Enclosure</a></li>
+                                <li><a href="#">Laptop Accessories</a></li>
+                                <li><a href="#">Show All Laptop</a></li>
+                            </ul>
+                        </li>
+                        <!-- UPS drop-down start  -->
+                        <li><a href="" class="menu">UPS</a>
+                            <ul>
+                                <li><a href="#">Premium Ultrabook</a></li>
+                                <li><a href="#">Laptop Bag</a></li>
+                                <li><a href="#">External Graphics Enclosure</a></li>
+                                <li><a href="#">Laptop Accessories</a></li>
+                                <li><a href="#">Show All Laptop</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="" class="menu">Office Equipment</a>
+                            <ul>
+                                <li><a href="#">Premium Ultrabook</a></li>
+                                <li><a href="#">Laptop Bag</a></li>
+                                <li><a href="#">External Graphics Enclosure</a></li>
+                                <li><a href="#">Laptop Accessories</a></li>
+                                <li><a href="#">Show All Laptop</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="" class="menu">Security</a>
+                            <ul>
+                                <li><a href="#">Premium Ultrabook</a></li>
+                                <li><a href="#">Laptop Bag</a></li>
+                                <li><a href="#">External Graphics Enclosure</a></li>
+                                <li><a href="#">Laptop Accessories</a></li>
+                                <li><a href="#">Show All Laptop</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="" class="menu">Networking</a>
+                            <ul>
+                                <li><a href="#">Premium Ultrabook</a></li>
+                                <li><a href="#">Laptop Bag</a></li>
+                                <li><a href="#">External Graphics Enclosure</a></li>
+                                <li><a href="#">Laptop Accessories</a></li>
+                                <li><a href="#">Show All Laptop</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="" class="menu">Accessories</a>
+                            <ul>
+                                <li><a href="#">Premium Ultrabook</a></li>
+                                <li><a href="#">Laptop Bag</a></li>
+                                <li><a href="#">External Graphics Enclosure</a></li>
+                                <li><a href="#">Laptop Accessories</a></li>
+                                <li><a href="#">Show All Laptop</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="" class="menu">Software</a>
+                            <ul>
+                                <li><a href="#">Premium Ultrabook</a></li>
+                                <li><a href="#">Laptop Bag</a></li>
+                                <li><a href="#">External Graphics Enclosure</a></li>
+                                <li><a href="#">Laptop Accessories</a></li>
+                                <li><a href="#">Show All Laptop</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="" class="menu">Server & Storage</a>
+                            <ul>
+                                <li><a href="#">Premium Ultrabook</a></li>
+                                <li><a href="#">Laptop Bag</a></li>
+                                <li><a href="#">External Graphics Enclosure</a></li>
+                                <li><a href="#">Laptop Accessories</a></li>
+                                <li><a href="#">Show All Laptop</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="" class="menu">TV</a>
+                            <ul>
+                                <li><a href="#">Premium Ultrabook</a></li>
+                                <li><a href="#">Laptop Bag</a></li>
+                                <li><a href="#">External Graphics Enclosure</a></li>
+                                <li><a href="#">Laptop Accessories</a></li>
+                                <li><a href="#">Show All Laptop</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="" class="menu">AC</a>
+                            <ul>
+                                <li><a href="#">Premium Ultrabook</a></li>
+                                <li><a href="#">Laptop Bag</a></li>
+                                <li><a href="#">External Graphics Enclosure</a></li>
+                                <li><a href="#">Laptop Accessories</a></li>
+                                <li><a href="#">Show All Laptop</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="" class="menu">Gadget</a>
+                            <ul class="gadget">
+                                <li><a href="#">Premium Ultrabook</a></li>
+                                <li><a href="#">Laptop Bag</a></li>
+                                <li><a href="#">External Graphics Enclosure</a></li>
+                                <li><a href="#">Laptop Accessories</a></li>
+                                <li><a href="#">Show All Laptop</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="" class="menu">Gaming</a>
+                            <ul class="gaming">
+                                <li><a href="#">Premium Ultrabook</a></li>
+                                <li><a href="#">Laptop Bag</a></li>
+                                <li><a href="#">External Graphics Enclosure</a></li>
+                                <li><a href="#">Laptop Accessories</a></li>
+                                <li><a href="#">Show All Laptop</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- -------====== header section end  ======------- -->
+
+    <!-- -------====== banner section start  ======------- -->
+    <section class="banner-area">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-lg-9 col-md-12 col-sm-12">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/nagad-cashback-august-home-banner-1-982x500.jpg" class="d-block w-100" alt="slide-img-shila">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/tn-bundle-offer-home-banner-2-982x500.jpg" class="d-block w-100" alt="slide-img-dhiman">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="images/uttara-branch-free-home-3-982x500.jpg" class="d-block w-100" alt="slide-3-mohammad-gain">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="images/gamdias-gaming-chair-deal-offer-page-august-4-2022-982x500.jpg" class="d-block w-100" alt="slide-4-sazzad">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-3">
+                    <div class="banner-right-form">
+                        <div class="banner-right-content">
+                            <h2>Compare Products</h2>
+                            <p>Choose Two Products to Compare</p>
+                        </div>
+                        <div class="banner-right-search d-flex">
+                            <input type="text" placeholder="Search and Select Product">
+                            <div class="search-icon">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="banner-right-search d-flex">
+                            <input type="text" placeholder="Search and Select Product">
+                            <div class="search-icon">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="banner-right-search d-flex">
+                            <a href="#" class="banner-btn">View Comparison</a>
+                        </div>
+                    </div>
+                    <div class="banner-right-img">
+                        <img src="images/pantum-small-web-banner-1.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- -------====== banner section end  ======------- -->
+
+    <!-- -------====== marquee section start  ======------- -->
+    <section class="marquee-area bg-area">
+        <div class="container">
+            <div class="marquee">
+                <marquee behavior="" direction="left">
+                    26th August Friday, our all branches are open except Chittagong Agrabad, Khulna and Rangpur. Additionally, Our online activities are open and operational.
+                </marquee>
+            </div>
+        </div>
+    </section>
+    <!-- -------====== marquee section end  ======------- -->
+
+    <!-- -------======featured section start ======-------  -->
+    <seation class="featured-area bg-area">
+        <div class="container">
+            <div class="featured-header header">
+                <h1>Featured Category</h1>
+                <p>Get Your Desired Product from Featured Category!</p>
+            </div>
+            <div class="featured-cards-design">
+                <div class="featured-cards">
+                    <a href="desktop.html">
+                        <div class="featured-icon">
+                            <img src="images/laptop.png" alt="">
+                            <p>All Laptop</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="featured-cards">
+                    <a href="">
+                        <div class="featured-icon">
+                            <img src="images/laptop-battery-48x48.png" alt="">
+                            <p>Laptop Battery</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="featured-cards">
+                    <a href="">
+                        <div class="featured-icon">
+                            <img src="images/laptop-adapter-48x48.png" alt="">
+                            <p> Charger / Adapter</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="featured-cards">
+                    <a href="">
+                        <div class="featured-icon">
+                            <img src="images/desktop-48x48.png" alt="">
+                            <p>Desktop</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="featured-cards">
+                    <a href="">
+                        <div class="featured-icon">
+                            <img src="images/cpu-48x48.png" alt="">
+                            <p>Processor</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="featured-cards">
+                    <a href="">
+                        <div class="featured-icon">
+                            <img src="images/gpu-48x48.png" alt="">
+                            <p>Graphics</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="featured-cards">
+                    <a href="">
+                        <div class="featured-icon">
+                            <img src="images/ssd-48x48.png" alt="">
+                            <p>SSD</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="featured-cards">
+                    <a href="">
+                        <div class="featured-icon">
+                            <img src="images/keyboard-48x48.png" alt="">
+                            <p>Keyboard</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="featured-cards">
+                    <a href="">
+                        <div class="featured-icon">
+                            <img src="images/mouse.png" alt="mouse">
+                            <p>Mouse</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="featured-cards">
+                    <a href="">
+                        <div class="featured-icon">
+                            <img src="images/headphone.png" alt="headphone">
+                            <p>Headphone</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="featured-cards">
+                    <a href="">
+                        <div class="featured-icon">
+                            <img src="images/printer.png" alt="Printer">
+                            <p>Printer</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="featured-cards">
+                    <a href="">
+                        <div class="featured-icon">
+                            <img src="images/projector2.png" alt="projector2">
+                            <p>Projector</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="featured-cards">
+                    <a href="">
+                        <div class="featured-icon">
+                            <img src="images/router.png" alt="router">
+                            <p>Router</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="featured-cards">
+                    <a href="">
+                        <div class="featured-icon">
+                            <img src="images/studio-equipment.png" alt="studio-equipment">
+                            <p>Studio Equipment</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="featured-cards">
+                    <a href="">
+                        <div class="featured-icon">
+                            <img src="images/gadget.png" alt="gadget">
+                            <p>Gadget</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="featured-cards">
+                    <a href="">
+                        <div class="featured-icon">
+                            <img src="images/smart-watch.png" alt="smart-watch">
+                            <p>Smart Watch</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </seation>
+    <!-- -------======featured section end ======-------  -->
+
+    <!-- -------======featured-product section start  ======------- -->
+
+    <section class="featured-product-area bg-area">
+        <div class="container">
+            <div class="featured-product-header header">
+                <h1>Featured Products</h1>
+                <p>Check & Get Your Desired Product !</p>
+            </div>
+            <div class="featured-product">
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="product-save-1">
+                        <span>Gift: Xtrike Me GX01 Extra Large Chair Floor Mate</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/deathadder-essential-228x228.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="product-card.html" class="product-header">Razer DeathAdder Essential Gaming Mouse</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">1,699৳</span>
+                            <span class="product-price-old">2,100৳</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/m42-rgb-retro-01-228x228.jpg" alt="">
+                    </div>
+                    </a>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Xtrfy M42 RGB RETRO Ultra-Light Gaming Mouse</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">7,500৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/m4-wireless-black-01-228x228.jpg" alt="">
+                    </div>
+                    </a>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Xtrfy M4 RGB Wireless Ultra-Light Gaming Mouse </a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">10,500৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/gamming-headset.jpg" alt="gamming-headset">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Razer KRAKEN X 7.1 Gaming Headset</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">3,900৳</span>
+                            <span class="product-price-old">4,300৳</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/nx420-01-gaming -case.jpg" alt="nx420-01-gaming -case">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Antec NX420 Mid Tower ARGB Gaming Case</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">4,300৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+
+                <!-- <div class="featured-product"> -->
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/gree-gsh.jpg" alt="gree-gsh">
+                    </div>
+                    </a>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Gree GSH-18PUV410 1.5 Ton Split Type Inverter Air Conditioner</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">70,000৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/apple-macbook-mgn73Z.jpg" alt="apple-macbook-mgn73Z">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Apple MacBook Air 13.3-Inch Retina Display 8-core Apple M1 chip with 8GB RAM, 256GB SSD</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">121,000৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/dell-vostro-15-3500.jpg" alt="dell-vostro-15-3500">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header"> Dell Vostro 15 3500 Core i3 11th Gen 15.6" FHD Laptop with 3 Years Warranty</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">49,000৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/blade-15-advanced-model.jpg" alt="blade-15-advanced-model">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Razer Blade 15 Advanced Model i7 11th Gen 32GB RAM RTX3080 8GB Graphics 15.6" FHD 360Hzh2</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">1350,000৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/asrock-h610m-hdv.jpg" alt="asrock-h610m-hdv">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">ASRock H610M-HDV/M.2 12th Gen Micro ATX Motherboard</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">11,300৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+
+                <!-- <div class="featured-product"> -->
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/hp-pavilion-15.jpg" alt="hp-pavilion-15">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">HP Pavilion 15-eg1678TU Core i5 11th Gen 15.6" FHD Laptop</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">79,699৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/msi-modern-14.jpg" alt="msi-modern-14">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">MSI Modern 14 B10MW Core i3 10th Gen 14" Full HD Laptop</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">48,600৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/pantum-bp5100dn.jpg" alt="pantum-bp5100dn">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Pantum BP5100DN Single Function Mono Laser Printer With Duplex & Network (40</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">25,699৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/pantump3020d.jpg" alt="pantump3020d">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Pantum P3010DW Single Function Mono Laser Printer (30 PPM)</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">18,500৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/xiaomi-wanbo-t2.jpg" alt="xiaomi-wanbo-t2">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Xiaomi Wanbo T2 Max 150 Lumens Smart Android Portable LED Projector</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">16,900৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+
+                <!-- <div class="featured-product"> -->
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/jbl-bar-5.jpg" alt="jbl-bar-5">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">JBL Bar 5.1-Channel 4K Ultra HD Magnetic Soundbar with Wireless Subwoofer</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">1,699৳</span>
+                            <span class="product-price-old">2,100৳</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/cisco-webex-desk-01.jpg" alt="cisco-webex-desk-01">
+                    </div>
+                    </a>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Cisco Webex Desk Webcam</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">7,500৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/deli-4122.jpg" alt="images/deli-4122">
+                    </div>
+                    </a>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Deli 4122 Fingerprint & Digital Safe Box / Locker / Vault</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">10,500৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/samsung-c49g95tssw-1.jpg" alt="samsung-c49g95tssw-1">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Samsung Odyssey C49G95TSSW 49'' G-Sync 240Hz Curved 2k Gaming Monitor</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">3,900৳</span>
+                            <span class="product-price-old">4,300৳</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/lg-32un650-w.jpg" alt="lg-32un650-w">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">LG 32UN650-W 31.5" UHD 4K HDR IPS Monitor</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">4,300৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+
+                <!-- <div class="featured-product"> -->
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/benq-rm6502s.jpg" alt="images/benq-rm6502s">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">BenQ RM6502S 65'' UHD Education Interactive Flat Panel Display</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">79,699৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/asrockb560m-pro4.jpg" alt="asrockb560m-pro4">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">ASRock B560M Pro4 10th and 11th Gen Micro ATX Motherboard</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">48,600৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-product-cards">
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/antec-vp450p-plus-1.jpg" alt="antec-vp450p-plus-1">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Antec VP450P PLUS 450W Continuous Power Supply</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">25,699৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/antec-symphony-360-argb.jpg" alt="team-cardea-liquid">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Antec Symphony 360 ARGB All-in-One Liquid CPU Cooler</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">18,500৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-product-cards">
+                    <div class="product-save">
+                        <span>Save: 10,000৳</span>
+                    </div>
+                    <div class="featured-product-img">
+                        <a href="">
+                            <img src="images/team-cardea-liquid.jpg" alt="team-cardea-liquid">
+                        </a>
+                    </div>
+                    <div class="featured-product-content">
+                        <h2>
+                            <a href="#" class="product-header">Xiaomi Wanbo T2 Max 150 Lumens Smart Android Portable LED Projector</a>
+                        </h2>
+                        <div class="product-price">
+                            <span class="product-price-new">16,900৳</span>
+                            <!-- <span class="product-price-old">2,100৳</span> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------======featured-product section end ======-------  -->
+
+    <!-- -------====== leanding-computer section start  ======------- -->
+    <section class="leanding-computer-area bg-area">
+        <div class="container">
+            <h1>Leading Computer, Laptop & Gaming PC Retail & Online Shop in Bangladesh</h1>
+            <div class="leanding-computer-content">
+                <p>
+                    Technology has become a part of our daily lives and for a huge portion of our life, we are dependent on tech products daily. There is hardly a home in Bangladesh without a tech product. This is where we come in. <a href="#">Star Tech  Engineering Ltd</a>had
+                    started as a Tech product shop way back in March 2007. We focused on giving the customers the best service possible. This is why Star Tech is one of The most trusted names in the tech industry of Bangladesh today. After a long 15-year
+                    journey; Star Tech Engineering Ltd. was certified with the renowned "ISO 9001:2015 certification" because of the best Quality control management system. As an "ISO 9001:2015 certified" organization; Star Tech Engineering Ltd. is now
+                    up to the international standard that specifies a quality management system (QMS). This Certification denotes that this organization consistently maintains all sorts of regulatory requirements to provide products and services for meeting
+                    all sorts of customer requirements. </p>
+
+                <h2>Best Laptop Shop in Bangladesh</h2>
+                <p>
+                    Star tech is the largest and most reliable<a href="#">Laptop </a> <strong>Brand Shop</strong> in BD. It does not matter whether you want a<a href="#">gaming laptop</a>, an Intel-powered laptop, or an AMD Ryzen laptop for your work,
+                    gaming, freelancing, or study. We have covered all of the budget range for laptops. You can also buy a genuine official Apple Macbook Air or Macbook Pro laptop from our shop. Star Tech is currently selling the latest models of many
+                    well-known Laptop computer brands such as <a href="#">Razer</a>,
+                    <a href="#">HP</a>, Dell, Apple <a href="#">Macbook</a>, Asus, Acer, Lenovo, <a href="#">Microsoft Surface</a>, MSI, Gigabyte, i-Life, Walton, Xiaomi MI, Huawei, Chuwi.</p>
+
+
+                <h2>Best Desktop PC Shop in Bangladesh</h2>
+                <p>
+                    <a href="#">Desktop PCs</a> are a vital part of any workspace or gaming setup. It does not matter if you are an entry-level, mid-level, or high-performance user. If you will be using your PC to run the resource-demanding apps consistently,
+                    then Desktop PC is the best solution. You can easily buy your desired <a href="#">Brand PC</a>, Portable mini PC, All-In-One PC, Apple <a href="#">Mac mini</a> or <a href="#">iMac PC</a>, or any budget pc. You can get your new Intel
+                    Desktop PC, AMD Desktop PC, or custom Desktop PC very easily with the <a href="#">PC builder</a> feature from our E-commerce <a href="#">website </a>or any of our shops. If you are a gamer or professional content creator then you can
+                    enhance your productivity with our collections of hi-end gaming and rendering PCs.</p>
+
+                <h2>Best PC component & accessories Shop in Bangladesh</h2>
+                <p>
+                    For any PC enthusiast out there; it is easy to get a custom PC with your chosen components from Star Tech. You can even choose <a href="#">accessories </a>as per your preference to garnish your PC. So it means you can choose the main
+                    components like the Processor (CPU), <a href="#">Monitor</a>, Motherboard, <a href="#">Graphics Card</a>,
+                    <a href="#">SSD</a>, HDD, RAM, Casing, Cooler, Power supply (PSU), etc. Or any other accessories for PC like <a href="#">Keyboard</a>,
+                    <a href="#">mouse</a>, mousepad, <a href="#">headphones</a>, webcam, capture card, etc with extensive features like RGB lighting to give your PC gaming vibe. The best part is, you can change any of your preferred components or accessories
+                    before the final purchase; whether you are buying from Star tech’s Physical Store or Online Shop.</p>
+
+                <h2>Best Gaming Shop in Bangladesh</h2>
+                <p>
+                    <a href="#">Gaming </a>is one of the most popular forms of entertainment now. We aim to provide the best selection of <a href="#">Gaming Desktop PC</a>,
+                    <a href="#">gaming laptops</a>, and gaming consoles. We also have other gaming components like the gaming motherboard, Liquid cooler, Cooler fan, gaming casing, hi-performance RAMKit, Graphics card, etc. Gamers can accessorize their
+                    gaming setup with various accessories like gaming mouse, keyboard, mousepad, headphones, gamepad, RGB light-strips, etc. apart from these regular ones we have some special gaming-focused accessories like <a href="#">gaming chairs</a>,
+                    gaming desks, gaming Sofa, RGB mousepad. We have a strategic partnership with some known gaming brands like <a href="#">Razer</a>, Antec, Gamdias, and Asus. As for the other brand coverage, we have gaming products from all other popular
+                    brands like A4Tech Bloody, <a href="#">ASRock</a>, SteelSeries,
+                    <a href="#">Logitech</a>, Corsair, Redragon, Coolermaster, Fantech, Cougar, Zadak, <a href="#">Gigabyte</a>, Elgato, and many more.</p>
+
+                <h2>Best Office Equipment shop in Bangladesh</h2>
+                <p>
+                    Modern-day office space has gotten various iterations in the form of a home office, Startup workspace, and so on. Tech products are a staple for home offices, startups, and regular offices. Star Tech delivers office equipment like laptops, desktops,
+                    <a href="#">routers</a>, <a href="#">printers</a>, Photocopiers, Conference Systems, attendance machines, Server equipment, and other must-have products to run an office properly.</p>
+
+                <h2>Best E-commerce Shop to order your desired Product</h2>
+                <p>
+                    Star Tech always prioritizes its customers and to ensure better customer service started the e-commerce shop in addition to the physical stores. The goal was to meet more customer needs in the shortest time. Since then, We have had the top spot as the
+                    best E-commerce shop in Bangladesh. Our website has a comprehensive search option to find the desired product. Our website has a unique PC builder feature so that you can build a Custom PC with your desired components. We arrange many
+                    promotional campaigns on different occasions and also on a regular basis. Some of our most successful events are named Flash sale, Special offer, Thursday Thunder, Anniversary Special Offer, New Year Offer, 12.12 Campaign, and many
+                    more. We even arrange special gaming events and tournaments for Bangladeshi gamers with renowned gaming Brands like Razer and Asus ROG.</p>
+
+                <h2>Best Price, Product & After-sales service</h2>
+                <p>
+                    <a href="# ">Star Tech</a> has taken care of its customers since the beginning. No matter if someone is inquiring or purchasing; every customer wants to get a genuine product with the best price. We deliver their desired products at
+                    the best price in the market for both online or physical stores. Apart from that, we offer the most extensive range of pre-sale and post-purchase product support and after-sales service. To ensure customer satisfaction with product
+                    and service We have branches in major cities like Dhaka, Chittagong, Rangpur, Gazipur, and Khulna. The plan of establishing our branches in other cities is already in motion. Hopefully, we will be available in all the districts in
+                    the very near future. Currently, we have online delivery available in all 64 districts in Bangladesh.</p>
+            </div>
+        </div>
+    </section>
+    <!-- -------====== leanding-computer section end  ======------- -->
+
+    <!-- -------====== fixed-btn start ======------- -->
+
+    <div class="fixed-btn-area bg-area">
+        <div class="fixed-btn-compare">
+            <div class="btn-compare" onclick="showMenu()">
+                <i class="fa-solid fa-basket-shopping"></i>
+                <h3>Compare</h3>
+            </div>
+            <div class="btn-compare-design">
+                <div class="cart-header">
+                    <h2>Compare Product</h2>
+                    <span class="btn-compare-close" onclick="closeMenu()">
+                <i class="fa-solid fa-xmark"></i>
+            </span>
+                </div>
+                <div class="empty-content">
+                    <p>Your compare list is empty!</p>
+                </div>
+            </div>
+        </div>
+        <!-- cart  -->
+        <div class="btn-cart" onclick="showMenu2()">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <h3>Cart</h3>
+        </div>
+        <div class="cart-design">
+            <div class="cart-header">
+                <h2>YOUR CART</h2>
+                <span class="close2" onclick="closeMenu2()">
+                  <i class="fa-solid fa-xmark"></i>
+                </span>
+            </div>
+            <div class="content">
+                <div class="empty-content">
+                    <p>Your shopping cart is empty!</p>
+                </div>
+            </div>
+            <div class="cart-bottom">
+                <div class="promotion-code">
+                    <div class="input-group">
+                        <input type="text" placeholder="Promo Code" id="">
+                        <span class="input-group-btn"><button class="btn" type="submit">Apply</button></span>
+                    </div>
+                </div>
+                <div class="total">
+                    <div class="title">Sub-Total</div>
+                    <div class="amount">0৳</div>
+                </div>
+                <div class="total">
+                    <div class="title">Total</div>
+                    <div class="amount">0৳</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------====== fixed-btn start ======------- -->
+    <!-- -------====== footer section start ======------- -->
+    <footer class="footer-area bg-area">
+        <div class="container">
+            <div class="row footer d-flex">
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="footer-header">
+                        <h3>SUPPORT</h3>
+                    </div>
+
+                    <a href="#" class="footer-contact-btn d-flex">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="footer-content">
+                            <span>9PM_8AM</span>
+                            <h4>0192093000</h4>
+                        </div>
+                    </a>
+
+                    <a href="#" class="footer-contact-btn d-flex">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="footer-content">
+                            <span>Store Locator</span>
+                            <h4>0192093000</h4>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="footer-header">
+                        <h3>ABOUT US</h3>
+                    </div>
+                    <div class="row footer-wedget">
+                        <div class="col-lg-4 footer-link">
+                            <ul>
+                                <li><a href="#">EMI Terms</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Star Point Policy</a></li>
+                                <li><a href="#">Brands</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 footer-link">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Terms and Conditions</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#" style="color: #0bc1e9;">Online Service Support</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 footer-link ">
+                            <ul>
+                                <li><a href="# ">Online Delivery</a></li>
+                                <li><a href="# ">Refund and Return Policy</a></li>
+                                <li><a href="# ">Contact Us</a></li>
+                                <li><a href="# " style="color: #0bc1e9; ">Complain / Advice</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="footer-header ">
+                        <h3>STAY CONNECTED</h3>
+                    </div>
+                    <div class="footer-social">
+                        <span style="color: #fff; ">Star Tech & Engineering Ltd</span>
+                        <p>6th floor, 28 Kazi Nazrul Islam Ave,Navana Zohura Square, Dhaka 1000</p>
+                        <span>Email:</span>
+                        <a href="">
+                            <p class="mail">example@gmail.com</p>
+                        </a>
+                    </div>
+                    <div class="footer-social-icon">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------====== copyright ======------- -->
+            <div class="row copyright m-0">
+                <div class="col-lg-9 col-s-9">
+                    <p>© 2020 Star Tech & Engineering Ltd | All rights reserved</p>
+                </div>
+                <div class="col-lg-3 col-s-3">
+                    <p style="text-align: end;">Powered By: Star Soft</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- -------====== footer section end ======------- -->
+
+
+
+
+
+
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/script.js "></script>
+
+
+
+</body>
+
+</html>
