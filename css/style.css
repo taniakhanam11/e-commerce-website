@@ -1354,12 +1354,17 @@ marquee {
 
 /* copyright  */
 
-.footer-area .copyright {
-    border-top: 2px solid #6666666e;
-    justify-content: space-between;
+.copyright-area {
+    background-color: var(--bg-color-2);
 }
 
-.footer-area .copyright p {
+.copyright-area .copyright-content {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #6666666e;
+}
+
+.copyright-area .copyright-content p {
     color: var(--black-6);
     font-size: 12px;
     line-height: 60px;
