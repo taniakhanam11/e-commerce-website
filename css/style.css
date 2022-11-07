@@ -1239,7 +1239,8 @@ marquee {
 }
 
 .footer-area .footer-contact-btn {
-    width: 100%;
+    justify-content: center;
+    width: 300px;
     padding: 5px 0;
     margin-right: 40px;
     border-radius: 50px;
@@ -2349,6 +2350,7 @@ label {
 
 .card-area {
     background-color: var(--white);
+    margin-top: 80px;
 }
 
 .card-area .card-bottom {
@@ -2536,10 +2538,12 @@ label {
     top: 0;
     left: 0;
     opacity: 0;
+    z-index: -1;
 }
 
 .showoverlay {
     opacity: 1;
+    z-index: 1;
 }
 
 .btn-login {
