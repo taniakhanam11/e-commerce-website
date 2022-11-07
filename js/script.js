@@ -34,14 +34,6 @@ function closeMenu4() {
 
 // top-cart end 
 
-// top-search start 
-
-// let search = document.querySelector(".search");
-// search.onclick = function() {
-//     document.querySelector(".mbsearch").classList.toggle('active');
-// }
-
-// top-search end 
 
 // bottom-compare start 
 
