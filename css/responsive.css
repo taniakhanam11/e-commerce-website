@@ -18,7 +18,74 @@
 }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* ------=======common start =======------ */
+
+
+/* all container start  */
+
+@media only screen and (max-width: 1440px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1200px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 330px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 300px;
+    }
+}
+
+
+/* all container end  */
+
+
+/* ------=======common end =======------ */
+
+
+/* ------=======home page start =======------ */
+
+
+/* header start  */
 
 @media only screen and (max-width: 600px) {
     header .navber {
@@ -43,9 +110,6 @@
         left: 30%;
     }
 }
-
-
-/* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (max-width: 768px) {
     header .navber {
@@ -158,65 +222,6 @@
     }
 }
 
-
-/* mb-top start  */
-
-@media (max-width: 2560px) {
-    .mb-header-tab-area {
-        display: none;
-    }
-    .mb-header-tab-area .container {
-        max-width: 920px;
-    }
-}
-
-@media (max-width: 1279px) {
-    .mb-header-tab-area {
-        display: flex;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        width: 100%;
-        height: 60px;
-        background-color: var(--bg-color-2);
-        padding: 0 15px;
-        box-shadow: 0 2px 2px var(--shadow);
-        align-items: center;
-        z-index: 9999;
-    }
-}
-
-
-/* mb top end  */
-
-
-/* mb bottom  */
-
-@media (max-width: 2560px) {
-    .mb-bottom-tab {
-        display: none;
-    }
-}
-
-@media (max-width: 1279px) {
-    .mb-bottom-tab {
-        justify-content: space-between;
-        display: initial;
-        position: fixed;
-        display: flex;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 60px;
-        background-color: var(--bg-color-2);
-        box-shadow: 0 2px 2px var(--shadow);
-        padding: 0 22px;
-        z-index: 999;
-    }
-}
-
 @media only screen and (max-width: 1440px) {
     .teach-top-area .navber ul li a {
         color: var(--black-2);
@@ -229,6 +234,136 @@
 }
 
 
+/* mb-top start  */
+
+@media (max-width: 2560px) {
+    .mb-header-tab-area {
+        display: none;
+    }
+}
+
+@media (max-width: 1279px) {
+    .mb-header-tab-area {
+        display: flex;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 70px;
+        background-color: var(--bg-color-2);
+        box-shadow: 0 2px 2px var(--shadow);
+        align-items: center;
+        z-index: 9999;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mb-header-tab-area .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mb-header-tab-area .container {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .mb-header-tab-area .container {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .mb-header-tab-area .container {
+        max-width: 330px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .mb-header-tab-area .container {
+        max-width: 300px;
+    }
+}
+
+
+/* mb top end  */
+
+
+/* mb bottom  */
+
+@media (max-width: 2560px) {
+    .mb-bottom-tab-area {
+        display: none;
+    }
+}
+
+@media (max-width: 1279px) {
+    .mb-bottom-tab-area {
+        justify-content: space-between;
+        display: initial;
+        position: fixed;
+        display: flex;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 70px;
+        background-color: var(--bg-color-2);
+        box-shadow: 0 2px 2px var(--shadow);
+        z-index: 999;
+    }
+    .mb-bottom-tab-area .mb-bottom-tab {
+        justify-content: space-between;
+        display: flex;
+    }
+}
+
+@media (max-width: 992px) {
+    .mb-bottom-tab-area .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mb-bottom-tab-area .container {
+        max-width: 720px;
+    }
+    .fixed-btn-compare3 .btn-compare3 {
+        line-height: 45px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .mb-bottom-tab-area .container {
+        max-width: 360px;
+    }
+    .fixed-btn-compare3 .btn-compare3 {
+        line-height: 45px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .mb-bottom-tab-area .container {
+        max-width: 330px;
+    }
+    .fixed-btn-compare3 .btn-compare3 {
+        line-height: 45px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .mb-bottom-tab-area .container {
+        max-width: 300px;
+    }
+    .fixed-btn-compare3 .btn-compare3 {
+        line-height: 45px;
+    }
+}
+
+
 /* header end  */
 
 
@@ -237,9 +372,6 @@
 @media only screen and (max-width: 1024px) {
     .banner-area {
         margin-top: 80px;
-    }
-    .banner-area .container {
-        max-width: 920px;
     }
     .banner-right-form {
         width: 100%;
@@ -383,15 +515,15 @@
         justify-content: start;
     }
     .featured-area .featured-cards-design .featured-cards {
-        width: 138px;
+        width: 136px;
         height: auto;
-        margin: 6px 6px;
+        margin: 7px 7px;
     }
 }
 
 @media only screen and (max-width: 1024px) {
     .featured-area .container {
-        max-width: 920px;
+        max-width: 960px;
     }
     .featured-area .featured-cards-design {
         display: flex;
@@ -399,7 +531,7 @@
         justify-content: start;
     }
     .featured-area .featured-cards-design .featured-cards {
-        width: 138px;
+        width: 146px;
         height: auto;
         margin: 7px 7px;
     }
@@ -511,7 +643,7 @@
     .featured-product-area .container {
         max-width: 1200px;
     }
-    .featured-product-area .container .featured-product {
+    .featured-product-area .featured-product {
         justify-content: space-between;
     }
     .featured-product-area .featured-product .featured-product-cards {
@@ -615,20 +747,40 @@
 /* Featured Products end  */
 
 
-/* all container start  */
+/* learning computer start */
 
-@media (min-width: 1200px) {
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl {
-        max-width: 1200px;
+@media only screen and (max-width: 768px) {
+    .leanding-computer-area .container {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width: 526px) {
+    .leanding-computer-area .container {
+        max-width: 580px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .leanding-computer-area .container {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .leanding-computer-area .container {
+        max-width: 350px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .leanding-computer-area .container {
+        max-width: 300px;
     }
 }
 
 
-/* all container end  */
+/* learning computer end */
 
 
 /* footer start  */
@@ -752,3 +904,347 @@
 
 
 /* footer end */
+
+
+/* ------=======home page end =======------ */
+
+
+/* ------=======offer section start  =======------ */
+
+@media only screen and (max-width: 1440px) {
+    .offer-area {
+        margin-top: 120px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .offer-area {
+        margin-top: 70px;
+    }
+}
+
+
+/* ------=======offer section end  =======------ */
+
+
+/* ------=======account page start =======------ */
+
+@media only screen and (min-width: 320px) {
+    .account-area {
+        margin-top: 70px;
+    }
+    .form .form-content {
+        width: 280px;
+        padding: 30px 10px;
+    }
+    .form .form-content input {
+        padding: 5px 10px;
+        margin-bottom: 15px;
+    }
+    .form .form-content label {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .form .form-content a {
+        font-size: 12px;
+    }
+    .form p.donot-text {
+        text-align: center;
+        margin: 15px 0 35px;
+        border-bottom: 1px solid transparent;
+        height: 11px;
+    }
+    .form p.donot-text span {
+        font-size: 14px;
+    }
+    .form .form-content .btn {
+        width: 100%;
+        height: 38px;
+        line-height: 34px;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .account-area {
+        margin-top: 70px;
+    }
+    .form .form-content {
+        width: 290px;
+        padding: 30px 10px;
+    }
+    .form .form-content input {
+        padding: 5px 10px;
+        margin-bottom: 15px;
+    }
+    .form .form-content label {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .form .form-content a {
+        font-size: 12px;
+    }
+    .form p.donot-text {
+        text-align: center;
+        margin: 15px 0 35px;
+        border-bottom: 1px solid transparent;
+        height: 11px;
+    }
+    .form p.donot-text span {
+        font-size: 14px;
+    }
+    .form .form-content .btn {
+        width: 100%;
+        height: 38px;
+        line-height: 34px;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .account-area {
+        margin-top: 70px;
+    }
+    /* form css start*/
+    .form {
+        display: flex;
+        justify-content: center;
+    }
+    .form .form-content {
+        width: 400px;
+        padding: 30px 10px;
+    }
+    .form .form-content h1 {
+        color: var(--black-1);
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .form .form-content label {
+        color: var(--black-3);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .form .form-content input {
+        width: 100%;
+        border: 1px solid var(--border);
+        outline: none;
+        padding: 8px 10px;
+        margin-bottom: 20px;
+    }
+    .form .form-content input::placeholder {
+        color: var(--black-6);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .form .form-content .forgot {
+        position: relative;
+    }
+    .form .form-content a {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: var(--blue);
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .form .form-content a:hover {
+        color: var(--cyan);
+    }
+    .form .form-content .btn {
+        width: 100%;
+        height: 42px;
+        display: inline-block;
+        border-radius: 4px;
+        line-height: 38px;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 0 20px;
+        outline: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .form .form-content .create-btn {
+        color: var(--blue);
+        background-color: var(--white);
+        border: 2px solid var(--blue);
+    }
+    .form .form-content .form-btn {
+        color: var(--white);
+        background-color: var(--blue);
+        border: 2px solid var(--blue);
+    }
+    .form .form-content .btn:hover {
+        color: var(--white);
+        background-color: var(--cyan);
+        border: 2px solid var(--cyan);
+    }
+    .form p.donot-text {
+        text-align: center;
+        margin: 25px 0 35px;
+        border-bottom: 1px solid var(--eee-color);
+        height: 11px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .account-area {
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .account-area {
+        margin-top: 125px;
+    }
+}
+
+
+/* footer start  */
+
+@media only screen and (min-width: 768px) {
+    .footer-area {
+        margin-top: 0px;
+    }
+}
+
+
+/* footer end  */
+
+
+/* ------=======account page end =======------ */
+
+
+/* ------=======checkout page start =======------ */
+
+@media only screen and (max-width: 768px) {
+    .checkout-area .checkout span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .checkout-area .container {
+        max-width: 360px;
+    }
+    .checkout-area .checkout {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .checkout-area .container {
+        max-width: 330px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .checkout-area .container {
+        max-width: 300px;
+    }
+}
+
+
+/* ------=======checkout page end =======------ */
+
+
+/* ------=======deals page start =======------ */
+
+
+/* mega nav start  */
+
+@media only screen and (max-width: 1024px) {
+    .mega-sale-area .mega-sale-content .mega-sale-tabs {
+        justify-content: space-between;
+    }
+    .mega-sale-area .mega-sale-content .mega-sale-tabs a {
+        display: inline-block;
+        font-size: 8px;
+        padding: 0 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mega-sale-area .mega-sale-content .mega-sale-tabs {
+        justify-content: space-between;
+    }
+    .mega-sale-area .mega-sale-content .mega-sale-tabs a {
+        display: inline-block;
+        font-size: 8px;
+        border-radius: 15px;
+        padding: 0 5px;
+    }
+}
+
+
+/* mega nav end  */
+
+
+/* mega laptop start  */
+
+@media only screen and (max-width: 1440px) {
+    .mega-card {
+        width: 228px;
+        margin: 6px 6px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .mega-card {
+        width: 228px;
+        margin: 6px 6px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .mega-card {
+        width: 325px;
+        margin: 7px 7px;
+    }
+}
+
+
+/* mega laptop end  */
+
+
+/* ------=======deals page end =======------ */
+
+
+/* ------=======desktop page start =======------ */
+
+@media only screen and (max-width: 1440px) {
+    .desktop-card {
+        width: 227px;
+        margin: 6px 6px;
+    }
+}
+
+
+/* ------=======desktop page end =======------ */
+
+
+/* ================================== */
+
+
+/* ================================== */
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (max-width: 1000px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 526px) {}
+
+@media only screen and (max-width: 425px) {}
+
+@media only screen and (max-width: 375px) {}
+
+@media only screen and (max-width: 320px) {}
