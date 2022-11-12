@@ -804,7 +804,7 @@ marquee {
 }
 
 .featured-area .featured-cards-design .featured-cards p {
-    font-size: 16px;
+    font-size: 14px;
     color: var(--p-color);
     font-weight: 500;
     line-height: 26px;
@@ -1358,13 +1358,14 @@ marquee {
 /* copyright  */
 
 .copyright-area {
+    border-top: 2px solid #6666666e;
     background-color: var(--bg-color-2);
 }
 
 .copyright-area .copyright-content {
     display: flex;
     justify-content: space-between;
-    border-top: 2px solid #6666666e;
+    /* border-top: 2px solid #6666666e; */
 }
 
 .copyright-area .copyright-content p {
@@ -1590,7 +1591,6 @@ marquee {
 }
 
 .mega-card:hover {
-    border: 1px solid var(--border);
     box-shadow: 0 6px 6px var(--shadow);
 }
 
@@ -2083,7 +2083,7 @@ label {
     box-shadow: 0 2px 3px var(--shadow);
     border-radius: 3px;
     line-height: 50px;
-    margin: 0 30px;
+    /* margin: 0 30px; */
     padding: 0 10px;
 }
 
@@ -2130,10 +2130,6 @@ label {
 
 /* top end  */
 
-.desktop-product {
-    margin: 0 20px;
-}
-
 .desktop-product .desktop-card .desktop-content {
     border-bottom: 1.5px solid var(--eee-color);
 }
@@ -2148,7 +2144,7 @@ label {
     font-size: 14px;
     font-weight: 400;
     line-height: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .desktop-product .product-price {
@@ -2239,15 +2235,18 @@ label {
 }
 
 
+/* ------- desktop  card section end ------- */
+
+
 /* category-discription start */
 
-.desktop-card-area .category-discription {
+.category-discription-area .category-discription {
     background-color: var(--white);
     padding: 20px;
     border-radius: 5px;
 }
 
-.desktop-card-area .category-discription h1 {
+.category-discription-area .category-discription h1 {
     font-size: 30px;
     line-height: 40px;
     font-weight: 400;
@@ -2255,14 +2254,14 @@ label {
     margin-bottom: 30px;
 }
 
-.desktop-card-area .category-discription p {
+.category-discription-area .category-discription p {
     margin-bottom: 10px;
     font-size: 15px;
     color: var(--p-color);
     line-height: 26px;
 }
 
-.desktop-card-area .category-discription h2 {
+.category-discription-area .category-discription h2 {
     color: var(--blue);
     font-size: 22px;
     font-weight: 400;
@@ -2270,7 +2269,7 @@ label {
 }
 
 
-/* ------- desktop  card section end ------- */
+/* category-discription end */
 
 
 /* -------====== desktop page  end ======------- */
@@ -2362,7 +2361,6 @@ label {
 
 .card-area {
     background-color: var(--white);
-    margin-top: 80px;
 }
 
 .card-area .card-bottom {

@@ -1217,9 +1217,66 @@
 
 /* ------=======desktop page start =======------ */
 
+
+/* desktop nav start  */
+
+@media only screen and (max-width: 1024px) {
+    .mega-sale-area .mega-sale-content .mega-sale-tabs {
+        justify-content: space-between;
+    }
+    .mega-sale-area .mega-sale-content .mega-sale-tabs a {
+        display: inline-block;
+        font-size: 8px;
+        padding: 0 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .desktop-area .desktop-menu {
+        justify-content: space-between;
+    }
+    .desktop-area .desktop-menu a {
+        display: inline-block;
+        font-size: 7px;
+        font-weight: 600;
+        margin: 20px 0px;
+    }
+}
+
+
+/* desktop nav end  */
+
 @media only screen and (max-width: 1440px) {
     .desktop-card {
-        width: 227px;
+        width: 209px;
+        margin: 7px 7px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .desktop-card {
+        width: 212px;
+        margin: 6px 6px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .desktop-card {
+        width: 229px;
+        margin: 6px 6px;
+    }
+    .desktop-card-area .desktop-card-top .d-card-content {
+        margin: 0 14px;
+        padding: 0 10px;
+    }
+    .desktop-product {
+        margin: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .desktop-card {
+        width: 355px;
         margin: 6px 6px;
     }
 }
