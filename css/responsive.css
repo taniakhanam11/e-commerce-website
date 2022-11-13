@@ -265,14 +265,28 @@
 }
 
 @media (max-width: 768px) {
+    .mb-header-tab-area {
+        height: 60px;
+    }
     .mb-header-tab-area .container {
         max-width: 720px;
     }
 }
 
 @media only screen and (max-width: 425px) {
+    .mb-header-tab-area {
+        height: 50px;
+    }
     .mb-header-tab-area .container {
         max-width: 360px;
+    }
+    .mb-header-tab i {
+        font-size: 20px;
+    }
+    .mb-header-tab .mb-header-logo {
+        width: auto;
+        height: 35px;
+        margin-top: 10px;
     }
 }
 
@@ -283,8 +297,19 @@
 }
 
 @media only screen and (max-width: 320px) {
+    .mb-header-tab-area {
+        height: 45px;
+    }
     .mb-header-tab-area .container {
         max-width: 300px;
+    }
+    .mb-header-tab i {
+        font-size: 20px;
+    }
+    .mb-header-tab .mb-header-logo {
+        width: auto;
+        height: 35px;
+        margin-top: 10px;
     }
 }
 
@@ -328,20 +353,43 @@
 }
 
 @media (max-width: 768px) {
+    .mb-bottom-tab-area {
+        height: 60px;
+    }
     .mb-bottom-tab-area .container {
         max-width: 720px;
     }
     .fixed-btn-compare3 .btn-compare3 {
         line-height: 45px;
     }
+    .mb-bottom-tab-area {
+        height: 60px;
+    }
+    .mb-bottom-tab a {
+        line-height: 40px;
+    }
+    .fixed-btn-compare3 .btn-compare3 {
+        line-height: 40px;
+    }
 }
 
 @media only screen and (max-width: 425px) {
+    .mb-bottom-tab-area {
+        height: 50px;
+    }
     .mb-bottom-tab-area .container {
         max-width: 360px;
     }
+    .mb-bottom-tab a {
+        font-size: 18px;
+        line-height: 32px;
+    }
     .fixed-btn-compare3 .btn-compare3 {
-        line-height: 45px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .fixed-btn-compare3 .btn-compare3 i {
+        line-height: 32px;
     }
 }
 
@@ -349,8 +397,19 @@
     .mb-bottom-tab-area .container {
         max-width: 330px;
     }
+    .mb-bottom-tab a {
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .mb-bottom-tab h5 {
+        font-size: 10px;
+    }
     .fixed-btn-compare3 .btn-compare3 {
-        line-height: 45px;
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .fixed-btn-compare3 .btn-compare3 h5 {
+        font-size: 10px;
     }
 }
 
@@ -359,7 +418,7 @@
         max-width: 300px;
     }
     .fixed-btn-compare3 .btn-compare3 {
-        line-height: 45px;
+        line-height: 22px;
     }
 }
 
@@ -927,6 +986,62 @@
 /* ------=======offer section end  =======------ */
 
 
+/* ------=======deals page start =======------ */
+
+
+/* mega nav start  */
+
+@media only screen and (max-width: 1024px) {
+    .mega-sale-area .mega-sale-content .mega-sale-tabs a {
+        display: inline-block;
+        font-size: 8px;
+        padding: 0 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mega-sale-area .mega-sale-content .mega-sale-tabs a {
+        display: inline-block;
+        font-size: 8px;
+        border-radius: 15px;
+        padding: 0 5px;
+    }
+}
+
+
+/* mega nav end  */
+
+
+/* mega laptop start  */
+
+@media only screen and (max-width: 1440px) {
+    .mega-card {
+        width: 228px;
+        margin: 6px 6px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .mega-card {
+        width: 228px;
+        margin: 6px 6px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .mega-card {
+        width: 325px;
+        margin: 7px 7px;
+    }
+}
+
+
+/* mega laptop end  */
+
+
+/* ------=======deals page end =======------ */
+
+
 /* ------=======account page start =======------ */
 
 @media only screen and (min-width: 320px) {
@@ -1120,6 +1235,106 @@
 /* ------=======account page end =======------ */
 
 
+/* ------=======pc-builder page start =======------ */
+
+@media only screen and (max-width: 1440px) {
+    .pc-builder-area {
+        margin: 50px 0;
+    }
+    .build-content {
+        padding: 0 50px;
+        padding-bottom: 20px;
+    }
+    .build-content .cpu {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .pc-builder-area {
+        margin: 20px 0;
+    }
+    .build-content {
+        padding: 0 50px;
+        padding-bottom: 20px;
+    }
+    .pc-builder-area .pc-builder-design .builder-header {
+        padding: 10px 8px;
+        justify-content: space-between;
+    }
+    .pc-builder-area .pc-builder-design .pc-builder-total {
+        font-size: 15px;
+    }
+    .pc-builder-area .pc-builder-design .builder-header .builder-center-text h2 {
+        font-size: 22px;
+    }
+    .pc-builder-area .pc-builder-design .builder-header .pc-builder-content span {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .build-content {
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .pc-builder-area .pc-builder-design .builder-header .pc-builder-content {
+        display: flex;
+        justify-content: center;
+    }
+    .pc-builder-area .pc-builder-design .builder-header {
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        display: block;
+    }
+    .pc-builder-area .pc-builder-design .pc-builder-total {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    .pc-builder-area .pc-builder-design .builder-header .builder-center-text h2 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .pc-builder-area .pc-builder-design .builder-header .builder-center-text {
+        margin-bottom: 10px;
+    }
+    .pc-builder-area .pc-builder-design .builder-header .pc-builder-content a {
+        width: 45px;
+        height: 45px;
+        line-height: 10px;
+    }
+    .build-content .cpu span {
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .build-content .select a {
+        padding: 6px 9px;
+        font-size: 12px;
+    }
+    .build-content {
+        padding: 0 30px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .build-content {
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+}
+
+
+/* ------=======pc-builder page end =======------ */
+
+
 /* ------=======checkout page start =======------ */
 
 @media only screen and (max-width: 768px) {
@@ -1153,77 +1368,12 @@
 /* ------=======checkout page end =======------ */
 
 
-/* ------=======deals page start =======------ */
-
-
-/* mega nav start  */
-
-@media only screen and (max-width: 1024px) {
-    .mega-sale-area .mega-sale-content .mega-sale-tabs {
-        justify-content: space-between;
-    }
-    .mega-sale-area .mega-sale-content .mega-sale-tabs a {
-        display: inline-block;
-        font-size: 8px;
-        padding: 0 14px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .mega-sale-area .mega-sale-content .mega-sale-tabs {
-        justify-content: space-between;
-    }
-    .mega-sale-area .mega-sale-content .mega-sale-tabs a {
-        display: inline-block;
-        font-size: 8px;
-        border-radius: 15px;
-        padding: 0 5px;
-    }
-}
-
-
-/* mega nav end  */
-
-
-/* mega laptop start  */
-
-@media only screen and (max-width: 1440px) {
-    .mega-card {
-        width: 228px;
-        margin: 6px 6px;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .mega-card {
-        width: 228px;
-        margin: 6px 6px;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .mega-card {
-        width: 325px;
-        margin: 7px 7px;
-    }
-}
-
-
-/* mega laptop end  */
-
-
-/* ------=======deals page end =======------ */
-
-
 /* ------=======desktop page start =======------ */
 
 
 /* desktop nav start  */
 
 @media only screen and (max-width: 1024px) {
-    .mega-sale-area .mega-sale-content .mega-sale-tabs {
-        justify-content: space-between;
-    }
     .mega-sale-area .mega-sale-content .mega-sale-tabs a {
         display: inline-block;
         font-size: 8px;
@@ -1232,9 +1382,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .desktop-area .desktop-menu {
-        justify-content: space-between;
-    }
     .desktop-area .desktop-menu a {
         display: inline-block;
         font-size: 7px;
@@ -1283,9 +1430,6 @@
 
 
 /* ------=======desktop page end =======------ */
-
-
-/* ================================== */
 
 
 /* ================================== */

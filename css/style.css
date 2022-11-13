@@ -1497,7 +1497,6 @@ marquee {
     box-shadow: 0 1px 1px var(--shadow);
     text-align: center;
     padding: 30px 0;
-    margin: 6px;
 }
 
 .mega-sale-area .mega-sale-content strong {
@@ -1542,7 +1541,9 @@ marquee {
 
 .mega-sale-area .mega-sale-content .mega-sale-tabs {
     display: flex;
+    flex-wrap: wrap;
     margin: 25px 8px;
+    padding: 0 20px;
 }
 
 .mega-sale-area .mega-sale-content .mega-sale-tabs a {
@@ -1808,11 +1809,6 @@ marquee {
 
 /* -------pc-builder section start------- */
 
-.pc-builder-area .pc-builder-container {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
 .pc-builder-area .pc-builder-design {
     background-color: var(--white);
     border: 1px solid var(--border);
@@ -1822,7 +1818,9 @@ marquee {
 .pc-builder-area .pc-builder-design .builder-header {
     border-bottom: 1px solid var(--border);
     padding: 10px;
+    justify-content: space-between;
     align-items: center;
+    display: flex;
 }
 
 .pc-builder-area .pc-builder-design .builder-header .builder-center-text {
@@ -1975,7 +1973,9 @@ marquee {
 
 .desktop-area .desktop-menu {
     display: flex;
+    flex-wrap: wrap;
     background-color: var(--white);
+    margin-bottom: 10px;
 }
 
 .desktop-area .desktop-menu a {
@@ -1987,12 +1987,13 @@ marquee {
     border: 1px solid var(--ddd-color);
     border-radius: 30px;
     padding: 0 14px;
-    margin: 20px 5px;
+    margin: 0 5px 10px 0;
 }
 
 .desktop-area .desktop-menu a:hover {
-    color: var(--cyan);
+    color: var(--white);
     border: 1px solid var(--cyan);
+    background-color: var(--cyan);
 }
 
 
@@ -2289,6 +2290,7 @@ label {
 
 .laptop-area .laptop-menu {
     display: flex;
+    flex-wrap: wrap;
     margin: 15px 0;
     width: 100%;
 }
@@ -2333,6 +2335,7 @@ label {
     border-radius: 30px;
     box-shadow: 0 1px 4px var(--shadow);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     line-height: 50px;
     align-items: center;
@@ -2455,16 +2458,18 @@ label {
 
 .card-area .card-content .card-menu {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card-area .card-content .card-menu li {
+    display: flex;
     background: var(--shadow);
     border-radius: 30px;
     color: var(--black-3);
     font-size: 14px;
     font-weight: 400;
     line-height: 40px;
-    margin-right: 6px;
+    margin: 10px 10px 10px 0;
     padding: 0 16px;
 }
 
@@ -2751,11 +2756,11 @@ label {
 
 .specification-area .specification-menu {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .specification-area .specification-menu li {
-    padding: 0 10px;
-    margin: 0 10px 20px 0;
+    margin: 0 15px 20px 0;
 }
 
 .specification-area .specification-menu .active {
@@ -2988,7 +2993,7 @@ label {
 
 .card-right {
     background-color: var(--white);
-    padding: 10px;
+    padding: 15px 0;
     margin-bottom: 10px;
     border-radius: 4px;
     box-shadow: 0 1px 4px var(--shadow);
