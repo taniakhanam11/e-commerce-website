@@ -3781,7 +3781,7 @@
                                 <li><a href="#">Brands</a></li>
                             </ul>
                         </div>
-                        <div class="col-lg-4 col-sm-12">
+                        <div class="col-lg-4 col-sm-12 p-0">
                             <ul class="footer-link">
                                 <li><a href="#">About Us</a></li>
                                 <li><a href="#">Terms and Conditions</a></li>
@@ -3842,8 +3842,15 @@
 
 
 
+    <!-- top-search start  -->
 
-
+    <script>
+        let search = document.querySelector(".search");
+        search.onclick = function() {
+            document.querySelector(".mbsearch").classList.toggle('active');
+        }
+    </script>
+    <!-- top-search end -->
 
     <script src="js/bootstrap.min.js "></script>
     <script src="js/script.js "></script>

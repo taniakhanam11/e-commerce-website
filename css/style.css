@@ -393,19 +393,19 @@ header label {
 /* search start */
 
 .mbsearch {
-    width: 40px;
+    width: 60px;
     height: 40px;
     border-radius: 4px;
     justify-content: space-between;
     overflow: hidden;
-    margin-top: 10px;
+    margin: 10px;
     transition: all linear .2s;
 }
 
 .mbsearch i {
     line-height: 40px;
     cursor: pointer;
-    padding: 0 10px;
+    padding: 0 18px;
 }
 
 .mbsearch input {
@@ -447,7 +447,7 @@ header label {
     position: fixed;
     top: 0;
     right: -40%;
-    transition: all linear -2s;
+    transition: all linear .4s;
 }
 
 
@@ -539,7 +539,7 @@ header label {
 
 .mb-bottom-tab h5 {
     color: var(--black-6);
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 15px;
 }
@@ -552,12 +552,12 @@ header label {
 .fixed-btn-compare3 .btn-compare3 i {
     color: var(--white);
     font-size: 20px;
-    line-height: 40px;
+    line-height: 43px;
 }
 
 .fixed-btn-compare3 .btn-compare3 h5 {
     color: var(--black-6);
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 15px;
 }
@@ -1509,7 +1509,7 @@ marquee {
 
 .mega-sale-area .mega-sale-content p {
     margin-bottom: 10px;
-    line-height: 14px;
+    line-height: 20px;
 }
 
 .mega-sale-area .mega-sale-content .mega-sale-counter h3 {
@@ -1553,13 +1553,13 @@ marquee {
 .mega-sale-area .mega-sale-content .mega-sale-tabs a {
     display: inline-block;
     color: var(--black-1);
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 34px;
     border: 1px solid var(--ddd-color);
     border-radius: 30px;
     padding: 0 14px;
-    margin: 0 5px 5px 0;
+    margin: 0 5px 10px 0;
 }
 
 .mega-sale-area .mega-sale-content .mega-sale-tabs a:hover {
