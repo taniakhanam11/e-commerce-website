@@ -1505,39 +1505,6 @@
 /* ------=======pc-builder page end =======------ */
 
 
-/* ------=======checkout page start =======------ */
-
-@media only screen and (max-width: 768px) {
-    .checkout-area .checkout span {
-        font-size: 12px;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .checkout-area .container {
-        max-width: 360px;
-    }
-    .checkout-area .checkout {
-        display: block;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    .checkout-area .container {
-        max-width: 330px;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .checkout-area .container {
-        max-width: 300px;
-    }
-}
-
-
-/* ------=======checkout page end =======------ */
-
-
 /* ------=======desktop page start =======------ */
 
 @media only screen and (max-width: 1440px) {
@@ -1595,12 +1562,56 @@
 /* ------=======product-card page start =======------ */
 
 @media only screen and (max-width: 768px) {
+    /* bye now cart start */
     .bye-now-cart {
         width: 650px;
     }
+    .bye-now-cart .bye-now-datails {
+        padding: 30px 25px;
+    }
+    .bye-now-content {
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+    .bye-now-cart .bye-now-datails .bye-now-content .cart-document {
+        display: contents;
+        margin: 0 15px;
+    }
+    .bye-now-cart .bye-now-datails .bye-now-content .cart-document p {
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    .bye-now-cart .bye-now-datails .bye-now-content .cart-document a {
+        font-size: 15px;
+    }
+    /* bye now cart end */
 }
 
 @media only screen and (max-width: 425px) {
+    /* bye now cart start */
+    .bye-now-cart {
+        width: 310px;
+    }
+    .bye-now-cart .bye-now-datails {
+        padding: 30px 15px;
+    }
+    .bye-now-content {
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+    .bye-now-cart .bye-now-datails .bye-now-content .cart-document {
+        display: contents;
+        margin: 0 15px;
+    }
+    .bye-now-cart .bye-now-datails .bye-now-content .cart-document p {
+        margin-top: 0px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .bye-now-cart .bye-now-datails .bye-now-content .cart-document a {
+        font-size: 14px;
+    }
+    /* bye now cart end */
     .offer-area .offer-content li a {
         color: var(--black-6);
         font-size: 9px;
@@ -1631,3 +1642,105 @@
 
 
 /* ------=======product-card page end =======------ */
+
+
+/* ------=======checkout page start =======------ */
+
+@media only screen and (max-width: 1024px) {
+    .input-group input {
+        width: 100%;
+    }
+    .input-group-btn {
+        width: 100%;
+    }
+    .input-group-btn .voucher-btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* amount start  */
+    .price {
+        font-size: 14px;
+    }
+    .price span {
+        font-size: 14px;
+    }
+    .name a {
+        font-size: 14px;
+    }
+    .name .fades {
+        font-size: 14px;
+    }
+    .table-bordered>:not(caption)>* {
+        font-size: 14px;
+        border-width: 1px 0;
+    }
+    /* amount end  */
+    .checkout-area .checkout-alret span {
+        font-size: 13px;
+    }
+    .input-group-btn {
+        width: 100%;
+    }
+    .input-group-btn .voucher-btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .checkout-area .checkout {
+        flex-wrap: wrap;
+        line-height: 20px;
+    }
+    .checkout-area .checkout span {
+        font-size: 14px;
+    }
+    .checkout .i-have-text {
+        line-height: 38px;
+    }
+    .checkout-btn {
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .checkout-area .container {
+        max-width: 360px;
+    }
+    .checkout-area .checkout {
+        display: block;
+    }
+    .checkout .i-have-text {
+        line-height: 28px;
+    }
+    .checkout-area .checkout-alret span {
+        font-size: 13px;
+        line-height: 24px;
+        padding: 10px 0;
+    }
+    .input-group input {
+        width: 100%;
+    }
+    .input-group-btn {
+        width: 100%;
+    }
+    .input-group-btn .voucher-btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .checkout-area .container {
+        max-width: 330px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .checkout-area .container {
+        max-width: 300px;
+    }
+}
+
+
+/* ------=======checkout page end =======------ */
