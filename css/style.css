@@ -2340,7 +2340,7 @@ label {
     line-height: 50px;
     align-items: center;
     border-radius: 30px;
-    margin: 0 20px;
+    margin: 35px 0px 20px 0;
     padding: 0 20px;
 }
 
@@ -2427,10 +2427,17 @@ label {
 }
 
 .picZoomer-zoom-wp {
+    height: 600px;
+    width: 600px;
+}
+
+.picZoomer-zoom-wp {
     display: none;
     position: absolute;
     z-index: 999;
     overflow: hidden;
+    height: 600px;
+    width: 600px;
 }
 
 .picZoomer-cursor {
