@@ -1,3 +1,23 @@
+/* =====================index all css start ======================== */
+
+
+/*  1.common resposive
+    2. home page
+    3. offer page
+    4. deals page
+    5. account page
+    6. pc-builder page
+    7. desktop page
+    8. product card page
+    9. checkout page
+*/
+
+
+/* =====================index all css end ======================== */
+
+
+/* ------=======common end =======------ */
+
 :root {
     --white: #fff;
     --cyan: #0bc1e9;
@@ -18,10 +38,7 @@
 }
 
 
-/* ------=======common start =======------ */
-
-
-/* all container start  */
+/* all container start */
 
 @media only screen and (max-width: 1440px) {
     .container,
@@ -1613,19 +1630,29 @@
     }
     /* bye now cart end */
     .offer-area .offer-content li a {
-        color: var(--black-6);
         font-size: 9px;
     }
+    .share-content {
+        margin: 5px 0px 20px 0;
+    }
     .share-content span {
-        color: var(--black-3);
-        font-size: 14px;
+        font-size: 11px;
+    }
+    .share-content i {
+        font-size: 11px;
     }
     .card-area .card-content h2 {
         font-size: 18px;
         margin: 18px 0px;
     }
+    .specification-area .specification-header h2 {
+        font-size: 18px;
+    }
     .specification-area .specification-details span {
         text-align: end;
+        font-size: 13px;
+    }
+    .card-area .card-content .card-info li {
         font-size: 13px;
     }
     .specification-area .specification-details li {
@@ -1637,6 +1664,15 @@
     }
     .specification-area .specification-paragraph {
         font-size: 13px;
+    }
+    .card-area .card-content .product-price-content span {
+        font-size: 15px;
+    }
+    .card-right .card-right-header h3 {
+        font-size: 18px;
+    }
+    .card-right .card-right-content .product-price .product-price-new {
+        font-size: 15px;
     }
 }
 

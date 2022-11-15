@@ -1,4 +1,22 @@
-/*-------====== common section start ======------- */
+/* =====================index all css start ======================== */
+
+
+/*  1.common css
+    2. home page
+    3. offer page
+    4. deals page
+    5. account page
+    6. pc-builder page
+    7. desktop page
+    8. product card page
+    9. checkout page
+*/
+
+
+/* =====================index all css end ======================== */
+
+
+/*-------====== common css start ======------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Share+Tech&display=swap');
 
@@ -7,7 +25,6 @@ font-family: 'Share Tech', sans-serif; */
 
 * {
     margin: 0;
-    /* padding: 0; */
     font-family: 'Open Sans', sans-serif;
     transition: all linear .3s;
 }
@@ -34,6 +51,7 @@ font-family: 'Share Tech', sans-serif; */
     --ddd-color: #ddd;
     --header-top-p: #ffffff80;
     --amount: #f44336;
+    --overlay: #00000080;
 }
 
 ul,
@@ -86,7 +104,7 @@ body {
 }
 
 
-/*-------====== common section end ======------- */
+/*-------====== common css end ======------- */
 
 
 /*-------====== home page ======------- */
@@ -249,7 +267,6 @@ body {
     font-size: 14px;
     font-weight: 600;
     line-height: 30px;
-    /* padding: 0 10px; */
     transition: all linear .3s;
 }
 
@@ -1013,7 +1030,6 @@ marquee {
 
 .fixed-btn-compare .btn-compare:hover {
     background-color: var(--cyan);
-    /* background-color: #0bc1e9; */
 }
 
 .btn-compare-design {
@@ -1487,10 +1503,10 @@ marquee {
 /*-------offer card section end------- */
 
 
-/*-------====== offer page end ======------- */
+/*------=======-====== offer page end =============------- */
 
 
-/* -------====== deal page start ======------- */
+/* -------============= deal page start =============------- */
 
 
 /* -------megha sale section start------- */
@@ -1805,10 +1821,10 @@ marquee {
 /* form css end*/
 
 
-/* -------====== account page end ======------- */
+/* -------============= account page end =============------- */
 
 
-/* -------====== pc-builder page start ======------- */
+/* -------============= pc-builder page start =============------- */
 
 
 /* -------pc-builder section start------- */
@@ -1968,10 +1984,10 @@ marquee {
 /* ----- pc-builder section end ----- */
 
 
-/* -------====== pc-builder page end ======------- */
+/* -------============= pc-builder page end =============------- */
 
 
-/* -------====== desktop page  start ======------- */
+/* -------============= desktop page  start =============------- */
 
 
 /* ------- desktop  section start ------- */
@@ -2096,7 +2112,6 @@ label {
     box-shadow: 0 2px 3px var(--shadow);
     border-radius: 3px;
     line-height: 50px;
-    /* margin: 0 30px; */
     padding: 0 10px;
 }
 
@@ -2172,7 +2187,6 @@ label {
     background-color: var(--white);
     padding: 30px 20px;
     border-radius: 4px;
-    /* box-shadow: 0 1px 4px var(--shadow); */
     margin-bottom: 20px;
 }
 
@@ -2285,51 +2299,7 @@ label {
 /* category-discription end */
 
 
-/* -------====== desktop page  end ======------- */
-
-
-/* -------====== laptop page  start ======------- */
-
-
-/* ------- laptop  section start ------- */
-
-.laptop-area {
-    height: auto;
-    background-color: var(--white);
-    box-shadow: 0 2px 1px var(--shadow);
-    margin: 2px 0;
-}
-
-.laptop-area .laptop-menu {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 15px 0;
-    width: 100%;
-}
-
-.laptop-area .laptop-menu li a {
-    height: 40px;
-    display: inline-block;
-    line-height: 34px;
-    padding: 0 9px;
-    color: var(--black-1);
-    border: 1px solid var(--ddd-color);
-    border-radius: 30px;
-    margin: 0 5px 5px 0;
-    font-size: 13px;
-    font-weight: normal;
-}
-
-.laptop-area .laptop-menu a:hover {
-    color: var(--cyan);
-    border: 1px solid var(--cyan);
-}
-
-
-/* ------- laptop  section end ------- */
-
-
-/* ---------========== laptop page  end ==========------ */
+/* -------============== desktop  page  end ==============------- */
 
 
 /* ---------========== product card page start ==========------ */
@@ -2641,7 +2611,7 @@ label {
 .overlay {
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--overlay);
     position: fixed;
     top: 0;
     left: 0;
@@ -2697,14 +2667,6 @@ label {
     padding: 30px;
 }
 
-.bye-now-cart .bye-now-datails .bye-now-content i {
-    width: 24px;
-    color: #15b579;
-    padding: 20px 5px;
-    text-align: center;
-    font-size: 20px;
-}
-
 .bye-now-cart .bye-now-datails .bye-now-content .cart-document {
     margin: 0 15px;
 }
@@ -2733,12 +2695,12 @@ label {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    border: 1px solid #eee;
+    border: 1px solid var(--eee-color);
     position: relative;
 }
 
 .bye-now-cart .bye-now-datails .cart-info .cart-quantity {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--eee-color);
     margin-bottom: 5px;
 }
 
@@ -2746,7 +2708,7 @@ label {
     padding: 0 0 5px;
     display: flex;
     justify-content: space-between;
-    color: #888;
+    color: var(--black-6);
     font-size: 14px;
     line-height: 20px;
 }
@@ -2804,7 +2766,7 @@ label {
 }
 
 
-/* header-comon start*/
+/*Specification  header-comon start*/
 
 .specification-area .specification-header h2 {
     font-size: 20px;
@@ -2821,7 +2783,7 @@ label {
 }
 
 
-/* header-comon end*/
+/* Specification header-comon end*/
 
 
 /* specification */
@@ -3085,10 +3047,10 @@ label {
 /*----Specification section end---- */
 
 
-/* ---------==========product card page end==========------ */
+/* ---------=============product card page end=============------ */
 
 
-/* -------====== checkout page  start ======------- */
+/* -------============= checkout page  start =============------- */
 
 .checkout-area .checkout-alret {
     border-radius: 3px;
@@ -3370,21 +3332,4 @@ tr {
 /* amount end */
 
 
-/* -------====== checkout page  end ======------- */
-
-
-/* .copyright-area {
-    background-color: #000;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: space-between;
-    color: var(--white);
-    line-height: 40px;
-    font-size: 12px;
-}
-
-.copyright p {
-    color: var(--black-6);
-    line-height: 40px;
-    font-size: 12px;
-} */
+/* -------============= checkout page  end =============------- */
