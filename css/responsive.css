@@ -1348,10 +1348,7 @@
         position: relative;
     }
     .form .form-content a {
-        position: absolute;
-        right: 0;
-        top: 0;
-        color: var(--blue);
+        color: var(--white);
         font-size: 14px;
         font-weight: 400;
     }

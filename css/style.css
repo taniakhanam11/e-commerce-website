@@ -288,9 +288,13 @@ body {
     width: 200px;
     background-color: var(--white);
     border-top: 3px solid var(--blue);
-    padding: 4px 0;
+    padding: 4px 0px;
     z-index: 1000;
     display: none;
+}
+
+.teach-top-area .navber ul li ul li a {
+    padding: 0 10px;
 }
 
 
@@ -1766,10 +1770,7 @@ marquee {
 }
 
 .form .form-content a {
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: var(--blue);
+    color: var(--white);
     font-size: 14px;
     font-weight: 400;
 }
@@ -1798,6 +1799,20 @@ marquee {
     border: 2px solid var(--blue);
 }
 
+.form .form-content .create-btn a {
+    color: var(--blue);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form .form-content .create-btn a:hover {
+    color: var(--white);
+}
+
+.form .form-content .create-btn:hover a {
+    color: var(--white);
+}
+
 .form .form-content .form-btn {
     color: var(--white);
     background-color: var(--blue);
@@ -1822,6 +1837,141 @@ marquee {
 
 
 /* -------============= account page end =============------- */
+
+
+/* -------============= register page start =============------- */
+
+.register-area {
+    background-color: var(--white);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form .register-content {
+    width: 400px;
+    padding: 30px 10px;
+}
+
+.form .register-content h1 {
+    color: var(--black-1);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form .register-content label {
+    color: var(--black-3);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.form .register-content input {
+    width: 100%;
+    border: 1px solid var(--border);
+    outline: none;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+}
+
+.form .register-content input::placeholder {
+    color: var(--black-6);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.form .register-content .forgot {
+    position: relative;
+}
+
+.form .register-content a {
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form .register-content a:hover {
+    color: var(--cyan);
+}
+
+.form .register-content .btn {
+    width: 100%;
+    height: 42px;
+    display: inline-block;
+    border-radius: 4px;
+    line-height: 38px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 20px;
+    outline: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form .register-content .create-btn {
+    color: var(--blue);
+    background-color: var(--white);
+    border: 2px solid var(--blue);
+}
+
+.form .register-content .form-btn {
+    color: var(--white);
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+}
+
+.form .register-content .btn:hover {
+    color: var(--white);
+    background-color: var(--cyan);
+    border: 2px solid var(--cyan);
+}
+
+.form p.donot-text {
+    text-align: center;
+    margin: 25px 0 35px;
+    border-bottom: 1px solid var(--eee-color);
+    height: 11px;
+}
+
+.register-area .form .register-content {
+    padding: 40px 10px;
+    width: 450px;
+}
+
+.register-area .multiple-form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-area .required label:after {
+    content: " *";
+    color: var(--amount);
+    font-weight: 400;
+}
+
+.register-area .form .register-content .create-account p {
+    color: var(--black-3);
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.register-area .form .register-content .create-account a {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.register-area .form .register-content .create-account a:hover {
+    text-decoration: underline;
+}
+
+
+/* -------============= register page end =============------- */
 
 
 /* -------============= pc-builder page start =============------- */
