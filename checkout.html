@@ -557,7 +557,7 @@
                                     <div class="col-md-6 col-sm-12">
                                         <div class="input-group">
                                             <input type="text" name="voucher" placeholder="Gift Voucher" id="input-voucher">
-                                            <span class="input-group-btn">
+                                            <span class="input-group-btn" onclick="showModel1()">
                                                 <button type="button" id="button-voucher" class="btn voucher-btn">Apply Voucher</button>
                                             </span>
                                         </div>
@@ -565,13 +565,20 @@
                                     <div class="col-md-6 col-sm-12">
                                         <div class="input-group">
                                             <input type="text" name="coupon" placeholder="Promo / Coupon Code" id="input-coupon">
-                                            <span class="input-group-btn">
+                                            <span class="input-group-btn" onclick="showModel1()">
                                                 <button type="button" id="button-coupon" class="btn voucher-btn">Apply Coupon</button>
                                             </span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="overlay2" onclick="closeModel1()"></div>
+                    <div class="checkout-cart">
+                        <span class="checkout-icon2"><i class="fa-solid fa-xmark"></i></span>
+                        <div class="apply-coupon-details">
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
                         </div>
                     </div>
                     <div class="row">
@@ -631,7 +638,10 @@
                                 I have read and agree to the <a href="#">Terms and Conditions</a>, <a href="#">Privacy Policy</a> and <a href="#">Refund and Return Policy</a>
                             </span>
                         </div>
-                        <button class="btn checkout-btn" type="submit">Confirm Order</button>
+
+                        <button class="checkout-btn btn" type="submit">
+                            <a href="index.html">Confirm Order</a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -833,6 +843,23 @@
     </script>
     <!-- top-search end -->
 
+    <!-- check-out popup start  -->
+    <script>
+        function showModel1() {
+            document.querySelector('.overlay2').classList.add('showoverlay2');
+            document.querySelector('.checkout-cart').classList.add('show-checkout-cart');
+        }
+
+        function closeModel1() {
+            document.querySelector('.overlay2').classList.remove('showoverlay2');
+            document.querySelector('.checkout-cart').classList.remove('show-checkout-cart');
+        }
+        var btnlogin = document.querySelector(".input-group-btn");
+        btnlogin.addEventListener("click", showModel1)
+        var c = document.querySelector(".checkout-icon2");
+        c.addEventListener("click", closeModel1)
+    </script>
+    <!-- check-out popup start  -->
     <script src="js/bootstrap.min.js "></script>
     <script src="js/script.js "></script>
 

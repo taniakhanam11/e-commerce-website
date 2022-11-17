@@ -6,10 +6,12 @@
     3. offer page
     4. deals page
     5. account page
-    6. pc-builder page
-    7. desktop page
-    8. product card page
-    9. checkout page
+    6. register page
+    7. pc-builder page
+    8. desktop page
+    9. product card page
+    10. shopping card page
+    11. checkout page
 */
 
 
@@ -1434,6 +1436,9 @@
     .register-area .form .register-content .btn {
         font-size: 14px;
     }
+    .register-area .form .register-content h1 {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -1566,22 +1571,18 @@
 
 @media only screen and (max-width: 1024px) {
     .desktop-card {
-        width: 212px;
+        width: 226px;
         margin: 6px 6px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .desktop-card {
-        width: 221px;
+        width: 228px;
         margin: 6px 6px;
     }
     .desktop-card-area .desktop-card-top .d-card-content {
-        margin: 0 14px;
-        padding: 0 10px;
-    }
-    .desktop-product {
-        margin: 0 10px;
+        margin-top: 10px;
     }
     .category-discription-area .category-discription h1 {
         font-size: 25px;
@@ -1602,6 +1603,29 @@
     }
     .category-discription-area .category-discription p {
         font-size: 13px;
+    }
+    .desktop-card-area .desktop-card-top .d-card-content .desktop-right .form-group label {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 50px;
+        margin-bottom: 2px;
+    }
+    .desktop-card-area .desktop-card-top .d-card-content .desktop-right .form-group select {
+        height: 30px;
+        max-width: 110px;
+        background-color: var(--bg-color);
+        padding: 6px 6px;
+        font-size: 12px;
+        border: none;
+        outline: none;
+        margin: 0 12px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .desktop-card-area .desktop-card-top .d-card-content .desktop-right {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -1711,6 +1735,63 @@
 
 
 /* ------=======product-card page end =======------ */
+
+
+/* ------======shopping-card page start =======------ */
+
+@media only screen and (max-width: 768px) {
+    .shopping-cart-area .shopping-cart-design .shopping-cart-voucher .input-group input {
+        margin: 10px 0px;
+    }
+    .shopping-cart-area .shopping-cart-design .shopping-botton a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .shopping-cart-area .shopping-cart-design .shopping-cart-header h1 {
+        font-size: 20px;
+    }
+    .shopping-cart-area .table-bordered thead td {
+        font-size: 14px;
+    }
+    .shopping-cart-area .name a {
+        font-size: 13px;
+    }
+    .shopping-cart-area .name .fades {
+        font-size: 13px;
+    }
+    .shopping-cart-area .shopping-cart-design .shopping-do-next h2 {
+        font-size: 18px;
+    }
+    .shopping-cart-area .shopping-cart-design .shopping-do-next p {
+        font-size: 15px;
+    }
+    .shopping-cart-area .shopping-cart-design .shopping-cart-voucher .input-group input::placeholder {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .shopping-cart-area .shopping-cart-design .shopping-botton .shopping-btn {
+        font-size: 13px;
+        padding: 0px 18px;
+    }
+    .apply-coupon-cart {
+        width: 280px;
+        padding: 12px 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .shopping-cart-area .shopping-cart-design .shopping-botton .shopping-btn {
+        font-size: 13px;
+        padding: 0px 9px;
+    }
+}
+
+
+/* ------======shopping-card page end =======------ */
 
 
 /* ------=======checkout page start =======------ */
