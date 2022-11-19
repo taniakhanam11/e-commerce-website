@@ -65,3 +65,8 @@ var c = document.querySelector(".bye-icon");
 c.addEventListener("click", closeModel)
 
 //  product card end
+
+// scrol button start 
+//Get the button
+
+// scrol button end

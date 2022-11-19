@@ -1006,6 +1006,29 @@ marquee {
 /*------- leanding-computer section end ------- */
 
 
+/*-------======= scroll button start ======= ------- */
+
+.scroll-button-area .scroll-btn {
+    position: fixed;
+    bottom: 160px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--amount);
+    border-radius: 50%;
+    display: none;
+    padding: 0;
+}
+
+.scroll-button-area .scroll-btn i {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+/*-------======= scroll button end =======------ */
+
+
 /* =============fixed btn start============== */
 
 .fixed-btn-compare .btn-compare {
