@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PC Builder</title>
+    <title>PC Builder Select</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -410,8 +410,8 @@
     </header>
     <!-- -------====== header section end  ======------- -->
 
-    <!-- -------====== offer section start  ======------- -->
-    <section class="offer-area offer-pc-builder-area bg-area">
+    <!-- -------====== desktop section start  ======------- -->
+    <section class="offer-area desktop-area bg-area">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -420,254 +420,514 @@
                             <a href="#">
                                 <i class="fa-solid fa-house"></i></a>
                         </li>
-                        <li> / <a href="#" class="offer-slash">PC Builder</a>
+                        <li> /
+                            <a href="#" class="offer-slash">PC Builder</a>
+                        </li>
+                        <li> /
+                            <a href="#" class="offer-slash">Choose A CPU</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <!-- -------====== offer section end  ======------- -->
+    <!-- -------====== desktop section end  ======------- -->
 
-    <!-- -------====== pc-builder section start ======------- -->
-    <section class="pc-builder-area bg-area">
+    <!-- -------====== desktop card start  ======------- -->
+    <section class="pc-builder-select-area mega-area bg-area">
         <div class="container">
-            <div class="pc-builder-design">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="builder-header">
-                            <div class="pc-builder-total">
-                                Total Tk 0
-                            </div>
-                            <div class="builder-center-text">
-                                <h2>PC Builder</h2>
-                                <span>Select Your Components</span>
-                            </div>
-                            <div class="pc-builder-content">
-                                <a href="#"><i class="fa-solid fa-download"></i>
-                                    <span>Add to Cart</span>
-                                </a>
-                                <a href="#"><i class="fa-solid fa-floppy-disk"></i>
-                                    <span>Save PC</span>
-                                </a>
-                                <a href="#"><i class="fa-solid fa-print"></i>
-                                    <span>Print</span>
-                                </a>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="price-range">
+                        <div class="range-header">
+                            <span>Price Range</span>
+                        </div>
+                        <div class="ragne-label">
+
+                        </div>
+                        <div class="range-filter-group">
+                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                            Availability
+                                    </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                        <div class="accordion-body">
+                                            <div class="items">
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="7">
+                                                    <span>In stock</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="8">
+                                                    <span>Pre Order</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="9">
+                                                    <span>Up Coming</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Processor -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                      Processor
+                                    </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                        <div class="accordion-body">
+                                            <div class="items">
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="7">
+                                                    <span>Intel</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="8">
+                                                    <span>Ryzen</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="9">
+                                                    <span>Intel Xeon</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="10">
+                                                    <span>M1</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- HDD -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                      HDD
+                                    </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            <div class="items">
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="7">
+                                                    <span>Up to 500GB</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="8">
+                                                    <span>1TB</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="9">
+                                                    <span>2TB</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="10">
+                                                    <span>3TB</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="11">
+                                                    <span>4TB</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="12">
+                                                    <span>6TB & Above</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- SSD -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                      SSD
+                                    </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                                        <div class="accordion-body">
+                                            <div class="items">
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="7">
+                                                    <span>Up to 120GB SSD</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="8">
+                                                    <span>Up to 256GB SSD</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="9">
+                                                    <span>Up to 512GB SSD</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="10">
+                                                    <span>Up to 1TB & Above</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- RAM -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                     RAM
+                                    </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                                        <div class="accordion-body">
+                                            <div class="items">
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="7">
+                                                    <span>Up to 2GB</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="8">
+                                                    <span>4GB</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="9">
+                                                    <span>6GB</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="10">
+                                                    <span>8GB</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="11">
+                                                    <span>16GB</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="12">
+                                                    <span>32GB & Above</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Graphics -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                                      Graphics 
+                                    </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                                        <div class="accordion-body">
+                                            <div class="items">
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="7">
+                                                    <span>Intel HD</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="8">
+                                                    <span>2GB</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="9">
+                                                    <span>4GB</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="10">
+                                                    <span>6GB</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="11">
+                                                    <span>8GB & Above</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- generation -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                                      Generation
+                                    </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+                                        <div class="accordion-body">
+                                            <div class="items">
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="7">
+                                                    <span>Up to 5th Gen</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="8">
+                                                    <span>6th Gen</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="9">
+                                                    <span>7th Gen</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="10">
+                                                    <span>8th Gen</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="11">
+                                                    <span>9th Gen</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="12">
+                                                    <span>10th Gen</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="13">
+                                                    <span>11th Gen</span>
+                                                </label>
+                                                <label for=""> 
+                                                    <input type="checkbox" name="status" value="14">
+                                                    <span>12th Gen</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="pc-builder-top">
-                    <div class="your-build">
-                        Your Build PC
-                    </div>
-                    <div class="build-reload">
-                        <a href="#"><i class="fa-solid fa-rotate"></i></a>
-                    </div>
-                </div>
-                <div class="build-content">
-                    <div class="row">
-                        <div class="cpu">
-                            <div class="col-9">
-                                <a href="#" class="cpu-img build-img">
-                                    <img src="images/pc-build-cpu-1.png" alt="pc-builder-cpu-1">
-                                </a>
-                                <span>CPU</span>
-                            </div>
-                            <div class="col-3">
-                                <div class="select"><a href="pc-builder-select.html">Select</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="cpu">
-                            <div class="col-9">
-                                <a href="#" class="cpu-img build-img">
-                                    <img src="images/pc-build-cpu-1.png" alt="pc-builder-cpu-1">
-                                </a>
-                                <span>CPU Cooler</span>
-                            </div>
-                            <div class="col-3">
-                                <div class="select"> <a href="#">Select</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="cpu">
-                            <div class="col-10">
-                                <a href="#" class="cpu-img build-img">
-                                    <img src="images/pc-build-cpu-1.png" alt="pc-builder-cpu-1">
-                                </a>
-                                <span>Motherboard</span>
-                            </div>
-                            <div class="col-2">
-                                <div class="select">
-                                    <a href="#">Select</a>
+                <div class="col-lg-9">
+                    <div class="pc-builder-select-card-top">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="d-card-content">
+                                    <h3 class="desktop-left">Desktop</h3>
+                                    <div class="desktop-right">
+                                        <div class="form-group d-flex">
+                                            <label for="">Short</label>
+                                            <div class="custom-select">
+                                                <select name="" id="">
+                                                    <option value="">Default</option>
+                                                    <option value="">Price (Low > high)</option>
+                                                    <option value="">Price (high > low)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="cpu">
-                            <div class="col-10">
-                                <a href="#" class="cpu-img build-img">
-                                    <img src="images/pc-build-cpu-1.png" alt="pc-builder-cpu-1">
-                                </a>
-                                <span>Memory</span>
+                    <div class="pc-builder-select-product">
+                        <div class="pc-builder-select-card">
+                            <div class="product-save">
+                                <span>Save: 11,000৳</span>
                             </div>
-                            <div class="col-2">
-                                <div class="select">
-                                    <a href="#">Select</a>
+                            <div class="pc-builder-select-img">
+                                <a href="product-card.html">
+                                    <img src="images/pc-builder-select-img.jpg" alt="mega-laptop-1">
+                                </a>
+                            </div>
+                            <div class="pc-builder-select-content">
+                                <h2>
+                                    <a href="product-card.html" class="product-header">Intel 9th Gen Core i5-9400 Processor</a>
+                                </h2>
+                                <ul class="description">
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Clock Speed: 4.10 GHz</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Cores-6 & Threads-6</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>9 MB SmartCache</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Intel UHD Graphics 630</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Intel UHD Graphics 630</span>
+                                    </li>
+                                </ul>
+                                <div class="product-price">
+                                    <span class="product-price-new">1,699৳</span>
+                                </div>
+                                <div class="actions">
+                                    <a href="" class="buy-btn">Add to PC Builder</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="cpu">
-                            <div class="col-10">
-                                <a href="#" class="cpu-img build-img">
-                                    <img src="images/pc-build-cpu-1.png" alt="pc-builder-cpu-1">
-                                </a>
-                                <span>HDD</span>
+                        <div class="pc-builder-select-card">
+                            <div class="product-save">
+                                <span>Save: 11,000৳</span>
                             </div>
-                            <div class="col-2">
-                                <div class="select">
-                                    <a href="#">Select</a>
+                            <div class="pc-builder-select-img">
+                                <a href="product-card.html">
+                                    <img src="images/pc-builder-select-img.jpg" alt="mega-laptop-1">
+                                </a>
+                            </div>
+                            <div class="pc-builder-select-content">
+                                <h2>
+                                    <a href="product-card.html" class="product-header">Intel 9th Gen Core i5-9400 Processor</a>
+                                </h2>
+                                <ul class="description">
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Clock Speed: 4.10 GHz</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Cores-6 & Threads-6</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>9 MB SmartCache</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Intel UHD Graphics 630</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Intel UHD Graphics 630</span>
+                                    </li>
+                                </ul>
+                                <div class="product-price">
+                                    <span class="product-price-new">1,699৳</span>
+                                </div>
+                                <div class="actions">
+                                    <a href="" class="buy-btn">Add to PC Builder</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="cpu">
-                            <div class="col-10">
-                                <a href="#" class="cpu-img build-img">
-                                    <img src="images/pc-build-cpu-1.png" alt="pc-builder-cpu-1">
-                                </a>
-                                <span>SSD</span>
+                        <div class="pc-builder-select-card">
+                            <div class="product-save">
+                                <span>Save: 11,000৳</span>
                             </div>
-                            <div class="col-2">
-                                <div class="select">
-                                    <a href="#">Select</a>
+                            <div class="pc-builder-select-img">
+                                <a href="product-card.html">
+                                    <img src="images/pc-builder-select-img.jpg" alt="mega-laptop-1">
+                                </a>
+                            </div>
+                            <div class="pc-builder-select-content">
+                                <h2>
+                                    <a href="product-card.html" class="product-header">Intel 9th Gen Core i5-9400 Processor</a>
+                                </h2>
+                                <ul class="description">
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Clock Speed: 4.10 GHz</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Cores-6 & Threads-6</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>9 MB SmartCache</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Intel UHD Graphics 630</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Intel UHD Graphics 630</span>
+                                    </li>
+                                </ul>
+                                <div class="product-price">
+                                    <span class="product-price-new">1,699৳</span>
+                                </div>
+                                <div class="actions">
+                                    <a href="" class="buy-btn">Add to PC Builder</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="cpu">
-                            <div class="col-10">
-                                <a href="#" class="cpu-img build-img">
-                                    <img src="images/pc-build-cpu-1.png" alt="pc-builder-cpu-1">
-                                </a>
-                                <span>Graphics Card</span>
+                        <div class="pc-builder-select-card">
+                            <div class="product-save">
+                                <span>Save: 11,000৳</span>
                             </div>
-                            <div class="col-2">
-                                <div class="select">
-                                    <a href="#">Select</a>
+                            <div class="pc-builder-select-img">
+                                <a href="product-card.html">
+                                    <img src="images/pc-builder-select-img.jpg" alt="mega-laptop-1">
+                                </a>
+                            </div>
+                            <div class="pc-builder-select-content">
+                                <h2>
+                                    <a href="product-card.html" class="product-header">Intel 9th Gen Core i5-9400 Processor</a>
+                                </h2>
+                                <ul class="description">
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Clock Speed: 4.10 GHz</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Cores-6 & Threads-6</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>9 MB SmartCache</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Intel UHD Graphics 630</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Intel UHD Graphics 630</span>
+                                    </li>
+                                </ul>
+                                <div class="product-price">
+                                    <span class="product-price-new">1,699৳</span>
+                                </div>
+                                <div class="actions">
+                                    <a href="" class="buy-btn">Add to PC Builder</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="cpu">
-                            <div class="col-10">
-                                <a href="#" class="cpu-img build-img">
-                                    <img src="images/pc-build-cpu-1.png" alt="pc-builder-cpu-1">
-                                </a>
-                                <span>Casing</span>
+                        <div class="pc-builder-select-card">
+                            <div class="product-save">
+                                <span>Save: 11,000৳</span>
                             </div>
-                            <div class="col-2">
-                                <div class="select">
-                                    <a href="#">Select</a>
+                            <div class="pc-builder-select-img">
+                                <a href="product-card.html">
+                                    <img src="images/pc-builder-select-img.jpg" alt="mega-laptop-1">
+                                </a>
+                            </div>
+                            <div class="pc-builder-select-content">
+                                <h2>
+                                    <a href="product-card.html" class="product-header">Intel 9th Gen Core i5-9400 Processor</a>
+                                </h2>
+                                <ul class="description">
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Clock Speed: 4.10 GHz</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Cores-6 & Threads-6</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>9 MB SmartCache</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Intel UHD Graphics 630</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>Intel UHD Graphics 630</span>
+                                    </li>
+                                </ul>
+                                <div class="product-price">
+                                    <span class="product-price-new">1,699৳</span>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="cpu">
-                            <div class="col-10">
-                                <a href="#" class="cpu-img build-img">
-                                    <img src="images/pc-build-cpu-1.png" alt="pc-builder-cpu-1">
-                                </a>
-                                <span>Powar Supply</span>
-                            </div>
-                            <div class="col-2">
-                                <div class="select">
-                                    <a href="#">Select</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="cpu">
-                            <div class="col-10">
-                                <a href="#" class="cpu-img build-img">
-                                    <img src="images/pc-build-cpu-1.png" alt="pc-builder-cpu-1">
-                                </a>
-                                <span>Opctional Device</span>
-                            </div>
-                            <div class="col-2">
-                                <div class="select">
-                                    <a href="#">Select</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="cpu">
-                            <div class="col-10">
-                                <a href="#" class="cpu-img build-img">
-                                    <img src="images/pc-build-cpu-1.png" alt="pc-builder-cpu-1">
-                                </a>
-                                <span>Monitor</span>
-                            </div>
-                            <div class="col-2">
-                                <div class="select">
-                                    <a href="#">Select</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="cpu">
-                            <div class="col-10">
-                                <a href="#" class="cpu-img build-img">
-                                    <img src="images/pc-build-cpu-1.png" alt="pc-builder-cpu-1">
-                                </a>
-                                <span>Keyboard</span>
-                            </div>
-                            <div class="col-2">
-                                <div class="select">
-                                    <a href="#">Select</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="cpu">
-                            <div class="col-10">
-                                <a href="#" class="cpu-img build-img">
-                                    <img src="images/pc-build-cpu-1.png" alt="pc-builder-cpu-1">
-                                </a>
-                                <span>Mouse</span>
-                            </div>
-                            <div class="col-2">
-                                <div class="select">
-                                    <a href="#">Select</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="cpu">
-                            <div class="col-10">
-                                <a href="#" class="cpu-img build-img">
-                                    <img src="images/pc-build-cpu-1.png" alt="pc-builder-cpu-1">
-                                </a>
-                                <span>UPS</span>
-                            </div>
-                            <div class="col-2">
-                                <div class="select">
-                                    <a href="#">Select</a>
+                                <div class="actions">
+                                    <a href="" class="buy-btn">Add to PC Builder</a>
                                 </div>
                             </div>
                         </div>
@@ -676,10 +936,10 @@
             </div>
         </div>
     </section>
-    <!-- -------====== pc-builder section end ======------- -->
+    <!-- -------====== desktop card end  ======------- -->
 
     <!-- -------====== fixed-btn start ======------- -->
-    <div class="fixed-btn-area bg-area">
+    <section class="fixed-btn-area bg-area">
         <div class="fixed-btn-area bg-area">
             <div class="fixed-btn-compare">
                 <div class="btn-compare" onclick="showMenu()">
@@ -733,7 +993,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- -------====== fixed-btn start ======------- -->
 
     <!-- -------====== footer section start ======------- -->
@@ -859,6 +1119,7 @@
     <!-- -------====== copyright ======------- -->
 
 
+
     <!-- top-search start  -->
 
     <script>
@@ -872,6 +1133,8 @@
 
     <script src="js/bootstrap.min.js "></script>
     <script src="js/script.js "></script>
+
+
 
 </body>
 

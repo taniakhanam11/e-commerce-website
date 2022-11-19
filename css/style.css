@@ -4,14 +4,16 @@
 /*  1.common css
     2. home page
     3. offer page
-    4. deals page
-    5. account page
-    6. register page
-    7. pc-builder page
-    8. desktop page
-    9. product card page
-    10. shopping card page
-    11. checkout page
+    4. offer details page 
+    5. deals page
+    6. account page
+    7. register page
+    8. pc-builder page
+    9. pc-builder-select page
+    10. desktop page
+    11. product card page
+    12. shopping card page
+    13. checkout page
 */
 
 
@@ -1483,6 +1485,11 @@ marquee {
     font-weight: 400;
 }
 
+.offer-card-area .offer-card-content .offer-details h3:hover {
+    color: var(--cyan);
+    text-decoration: underline;
+}
+
 .offer-card-area .offer-card-content .offer-details p {
     color: var(--black-6);
     font-size: 15px;
@@ -1510,6 +1517,178 @@ marquee {
 
 
 /*------=======-====== offer page end =============------- */
+
+
+/*------=======-====== offer-details page start =============------- */
+
+.offer-details-card-area {
+    margin: 20px 0;
+}
+
+.offer-details-card-area .offer-details-card-content {
+    width: 700px;
+    display: block;
+    margin: auto;
+    background-color: var(--white);
+    box-shadow: 0 1px 1px var(--shadow);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.offer-details-card-area .offer-details-card-content .offfer-details-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.offer-details-card-area .offer-details-card-content .offfer-details-header .offer-details-header-left i {
+    color: var(--black);
+    font-size: 25px;
+    margin: 4px 10px;
+}
+
+.offer-details-card-area .offer-details-card-content .offfer-details-header .offer-details-header-left i:hover {
+    color: var(--cyan);
+}
+
+.offer-details-card-area .offer-details-card-content .offfer-details-header .offer-details-header-left h4 {
+    color: var(--black);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.offer-details-card-area .offer-details-card-content .offfer-details-header .offer-details-header-right h4 {
+    font-size: 14px;
+    color: var(--black-3);
+    letter-spacing: 2px;
+    margin: 12px;
+}
+
+.offer-details-card-area .offer-details-card-content .offfer-details-header .offer-details-header-right .offer-details-counter {
+    display: inline-block;
+}
+
+.offer-details-card-area .offer-details-card-content .offfer-details-header .offer-details-header-right .offer-details-counter ul {
+    display: flex;
+}
+
+.offer-details-card-area .offer-details-card-content .offfer-details-header .offer-details-header-right .offer-details-counter ul li {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 5px;
+}
+
+.offer-details-card-area .offer-details-card-content .offfer-details-header .offer-details-header-right .offer-details-counter ul li span {
+    display: block;
+    border: 1px solid var(--black-3);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 6px 10px;
+    line-height: 25px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.offer-details-card-area .offer-details-card-content img {
+    width: 100%;
+}
+
+.offer-details-card-area .offer-details-card-content .offer-details h4 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.offer-details-card-area .offer-details-card-content .offer-details .offer-info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--eee-color);
+}
+
+.offer-details-card-area .offer-details-card-content .offer-details .offer-info span {
+    color: var(--black-1);
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.offer-details-card-area .offer-details-card-content .offer-details-description {
+    margin-top: 20px;
+}
+
+.offer-details-card-area .offer-details-card-content .offer-details-description p {
+    color: var(--black);
+    font-size: 16px;
+    margin: 30px 0;
+    line-height: 26px;
+}
+
+.offer-details-card-area .offer-details-card-content .offer-details-description strong {
+    color: var(--black);
+    font-size: 16px;
+    margin: 30px 0;
+    line-height: 26px;
+}
+
+.offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table span {
+    width: 100%;
+    color: var(--black);
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table li {
+    width: 100%;
+    height: 100px;
+    color: var(--black);
+    font-size: 16px;
+    line-height: 30px;
+    border-bottom: 1px solid var(--border);
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table2 li {
+    width: 100%;
+    color: var(--black);
+    font-size: 16px;
+    line-height: 40px;
+    border-bottom: 1px solid var(--border);
+    padding: 0 10px;
+}
+
+.offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table-header li {
+    color: var(--black);
+    font-size: 16px;
+    line-height: 30px;
+    border-bottom: 1px solid var(--border);
+    padding: 0 10px;
+}
+
+.offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table-header {
+    margin-top: 30px;
+}
+
+.offer-details-card-area .offer-details-card-content .offer-details-condition {
+    margin-top: 20px;
+}
+
+.offer-details-card-area .offer-details-card-content .offer-details-condition ul {
+    margin: 20px 0;
+}
+
+.offer-details-card-area .offer-details-card-content .offer-details-condition ul li {
+    list-style: disc;
+    margin: 10px 20px;
+}
+
+.offer-details-card-area .offer-details-card-content .offer-details-condition ul li a:hover {
+    color: var(--cyan);
+    text-decoration: underline;
+}
+
+
+/*------=======-====== offer-details page end =============------- */
 
 
 /* -------============= deal page start =============------- */
@@ -2136,6 +2315,159 @@ marquee {
 /* -------============= pc-builder page end =============------- */
 
 
+/* -------============= pc-builder-select page start =============------- */
+
+
+/* right  */
+
+.pc-builder-select-area {
+    margin-top: 20px;
+}
+
+.pc-builder-select-area .pc-builder-select-card-top {
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+
+.pc-builder-select-area .pc-builder-select-card-top .d-card-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--white);
+    box-shadow: 0 2px 3px var(--shadow);
+    border-radius: 3px;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+.pc-builder-select-area .pc-builder-select-card-top .d-card-content .desktop-left {
+    font-size: 16px;
+    line-height: 50px;
+    margin-bottom: 0;
+}
+
+.pc-builder-select-area .pc-builder-select-card-top .d-card-content .desktop-right {
+    display: inline-block;
+    display: flex;
+}
+
+.pc-builder-select-area .pc-builder-select-card-top .d-card-content .desktop-right .form-group {
+    align-items: center;
+    margin: 0 10px;
+}
+
+.pc-builder-select-area .pc-builder-select-card-top .d-card-content .desktop-right .form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 2px;
+}
+
+.pc-builder-select-area .pc-builder-select-card-top .d-card-content .desktop-right .form-group select {
+    height: 30px;
+    max-width: 110px;
+    background-color: var(--bg-color);
+    padding: 6px 6px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    margin: 0 12px;
+}
+
+.pc-builder-select-area .pc-builder-select-card-top .d-card-content .desktop-right .form-group select option {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+
+/* top end  */
+
+.pc-builder-select-product {
+    padding: 0 8px;
+}
+
+.pc-builder-select-product .pc-builder-select-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    background-color: var(--white);
+    margin: 10px 0;
+}
+
+.pc-builder-select-product .pc-builder-select-card .pc-builder-select-img {
+    width: auto;
+}
+
+.pc-builder-select-product .pc-builder-select-card .pc-builder-select-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.pc-builder-select-product .pc-builder-select-card .pc-builder-select-content {
+    border-bottom: 1.5px solid var(--eee-color);
+}
+
+.pc-builder-select-product .pc-builder-select-card .pc-builder-select-content h2 a {
+    color: var(--black-1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.pc-builder-select-product .product-price {
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.pc-builder-select-product .pc-builder-select-card .description {
+    background-color: var(--white);
+    padding: 10px 10px;
+}
+
+.pc-builder-select-product .pc-builder-select-card .description li {
+    display: flex;
+    color: var(--black-6);
+    font-size: 13px;
+    line-height: 16px;
+    padding-bottom: 10px;
+}
+
+.pc-builder-select-product .pc-builder-select-card .description li i {
+    font-size: 5px;
+    color: var(--black-6);
+    padding: 6px 7px 1px 0;
+}
+
+.pc-builder-select-product .pc-builder-select-card .actions {
+    margin: 10px 10px;
+}
+
+.pc-builder-select-product .pc-builder-select-card .actions a {
+    display: inline-block;
+    flex-wrap: nowrap;
+    color: var(--blue);
+    background-color: var(--ddd-color);
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 34px;
+    padding: 0 14px;
+    cursor: pointer;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.pc-builder-select-product .pc-builder-select-card .actions .buy-btn:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+
+/* -------============= pc-builder-select page end =============------- */
+
+
 /* -------============= desktop page  start =============------- */
 
 
@@ -2333,13 +2665,9 @@ label {
 }
 
 .desktop-product .desktop-card .description {
-    padding: 10px 10px;
-}
-
-.description {
+    height: 160px;
     background-color: var(--white);
-    padding: 30px 20px;
-    border-radius: 4px;
+    padding: 10px 10px;
     margin-bottom: 20px;
 }
 
@@ -3302,6 +3630,10 @@ tr {
 .shopping-cart-area .shopping-cart-design .shopping-cart-voucher .input-group input {
     margin: 10px 4px;
     outline: none;
+}
+
+.shopping-cart-area .shopping-cart-design .shopping-cart-voucher .input-group input:focus {
+    border-color: var(--amount);
 }
 
 .form-control {

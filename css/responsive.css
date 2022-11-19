@@ -4,14 +4,16 @@
 /*  1.common resposive
     2. home page
     3. offer page
-    4. deals page
-    5. account page
-    6. register page
-    7. pc-builder page
-    8. desktop page
-    9. product card page
-    10. shopping card page
-    11. checkout page
+    4. offer details page 
+    5. deals page
+    6. account page
+    7. register page
+    8. pc-builder page
+    9. pc-builder-select page
+    10. desktop page
+    11. product card page
+    12. shopping card page
+    13. checkout page
 */
 
 
@@ -1140,7 +1142,7 @@
 /* ------=======home page end =======------ */
 
 
-/* ------=======offer section start  =======------ */
+/* ------=======offer page start  =======------ */
 
 @media only screen and (max-width: 1440px) {
     .offer-area {
@@ -1170,7 +1172,124 @@
 }
 
 
-/* ------=======offer section end  =======------ */
+/* ------=======offer page end  =======------ */
+
+
+/* ------=======offer details page start  =======------ */
+
+@media only screen and (max-width: 768px) {
+    .offer-details-card-area .offer-details-card-content {
+        width: 600px;
+    }
+    .offer-details-card-area .offer-details-card-content .offfer-details-header .offer-details-header-left i {
+        font-size: 18px;
+        margin: 2px 10px;
+    }
+    .offer-details-card-area .offer-details-card-content .offfer-details-header .offer-details-header-left h4 {
+        font-size: 18px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details h4 {
+        font-size: 22px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-description p {
+        font-size: 14px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-description strong {
+        font-size: 14px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table li {
+        line-height: 26px;
+        height: 90px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table-header {
+        margin-top: 0px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table span {
+        font-size: 14px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table2 li {
+        font-size: 14px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-condition ul li {
+        list-style: disc;
+        margin: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .offer-details-card-area .offer-details-card-content {
+        width: 350px;
+    }
+    .offer-details-card-area .offer-details-card-content .offfer-details-header .offer-details-header-left i {
+        font-size: 14px;
+        margin: 1px 7px;
+    }
+    .offer-details-card-area .offer-details-card-content .offfer-details-header .offer-details-header-left h4 {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .offer-details-card-area .offer-details-card-content .offfer-details-header .offer-details-header-right h4 {
+        display: none;
+    }
+    .offer-details-card-area .offer-details-card-content .offfer-details-header .offer-details-header-right .offer-details-counter ul li span {
+        font-size: 11px;
+        padding: 0px;
+    }
+    .offer-details-card-area .offer-details-card-content .offfer-details-header .offer-details-header-right .offer-details-counter ul li {
+        font-size: 11px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details h4 {
+        font-size: 18px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table span {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table li {
+        line-height: 15px;
+        height: 160px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table-header li {
+        height: 60px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table2 li {
+        font-size: 14px;
+        height: 60px;
+        line-height: 26px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .offer-details-card-area .offer-details-card-content {
+        width: 300px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-description p {
+        font-size: 13px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-description strong {
+        font-size: 13px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table li {
+        height: 200px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table span {
+        font-size: 12px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-description .offer-details-table2 li {
+        font-size: 12px;
+        height: 54px;
+        line-height: 22px;
+    }
+    .offer-details-card-area .offer-details-card-content .offer-details-condition ul li {
+        list-style: disc;
+        margin: 10px 20px;
+        font-size: 13px;
+    }
+}
+
+
+/* ------=======offer details page end  =======------ */
 
 
 /* ------=======deals page start =======------ */
@@ -1558,6 +1677,45 @@
 
 
 /* ------=======pc-builder page end =======------ */
+
+
+/* ------=======pc-builder-select page start =======------ */
+
+@media only screen and (max-width: 768px) {
+    .pc-builder-select-product .pc-builder-select-card .pc-builder-select-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .pc-builder-select-product .pc-builder-select-card .pc-builder-select-img {
+        width: 150px;
+        height: 150px;
+    }
+    .pc-builder-select-product .product-price {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .pc-builder-select-product .pc-builder-select-card .pc-builder-select-content h2 a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .pc-builder-select-product .pc-builder-select-card .description li {
+        font-size: 12px;
+        line-height: 14px;
+        padding-bottom: 10px;
+    }
+    .pc-builder-select-product .pc-builder-select-card .actions a {
+        font-size: 13px;
+    }
+}
+
+
+/* ------=======pc-builder-select page end =======------ */
 
 
 /* ------=======desktop page start =======------ */
