@@ -123,66 +123,22 @@
 
 /* header start  */
 
-@media only screen and (max-width: 600px) {
-    header .navber {
-        width: 30%;
-        background-color: var(--cyan);
-    }
-    .teach-top-area .navber .menu:hover {
-        background-color: transparent;
-        background-color: var(--cyan);
-    }
-    .teach-top-area .navber ul {
-        background-color: azure;
+@media only screen and (max-width: 1440px) {
+    .teach-top-area .navber ul li a {
+        color: var(--black-2);
         display: block;
-    }
-    .teach-top-area .navber ul li ul {
-        position: absolute;
-        width: 150px;
-        left: 30%;
-    }
-    .teach-top-area .navber ul li .desktop {
-        top: 80px;
-        left: 30%;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    header .navber {
-        width: 30%;
-        display: none;
-    }
-    header label {
-        display: initial;
-    }
-    #menu-bar {
-        display: none;
-    }
-    #menu-bar:checked~.navber {
-        display: initial;
-    }
-    .teach-top-area .navber .menu:hover {
-        background-color: transparent;
-        color: var(--white);
-        background-color: var(--cyan);
-    }
-    .teach-top-area .navber ul {
-        background-color: azure;
-        display: block;
-        width: 30%;
-    }
-    .teach-top-area .navber ul li ul {
-        position: absolute;
-        width: 150px;
-        left: 30%;
-    }
-    .teach-top-area .navber ul li .desktop {
-        top: 80px;
-        left: 30%;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 30px;
+        transition: all 0.3s linear 0s;
     }
 }
 
 @media only screen and (max-width: 1024px) {
+    .teach-top-area {
+        top: 70px;
+        width: 30%;
+    }
     header .navber {
         width: 50%;
         display: none;
@@ -204,30 +160,61 @@
     .teach-top-area .navber ul {
         background-color: azure;
         display: block;
-        width: 30%;
+        width: 100%;
+    }
+    .teach-top-area .navber .menu {
+        padding-left: 20px;
     }
     .teach-top-area .navber ul li ul {
         position: absolute;
         width: 150px;
-        left: 30%;
+        left: 100%;
+    }
+    .teach-top-area .navber ul li ul {
+        padding: 0;
+    }
+    .teach-top-area .navber ul li ul li .all-laptop {
+        top: 30px;
+        left: 100%;
+    }
+    .teach-top-area .navber ul li ul li .gaming-laptop {
+        top: 60px;
+        left: 100%;
     }
     .teach-top-area .navber ul li .desktop {
-        top: 80px;
-        left: 30%;
+        top: 48px;
+        left: 100%;
+    }
+    .teach-top-area .navber ul li ul li .start-pc {
+        top: 64px;
+        left: 100%;
+    }
+    .teach-top-area .navber ul li ul li .gamming-pc {
+        top: 94px;
+        left: 100%;
+    }
+    .teach-top-area .navber ul li ul li .brand-pc {
+        top: 124px;
+        left: 100%;
+    }
+    .teach-top-area .navber ul li ul li .all-in {
+        top: 154px;
+        left: 100%;
+    }
+    .teach-top-area .navber ul li ul li .portable {
+        top: 184px;
+        left: 100%;
     }
 }
 
-@media only screen and (max-width: 1024px) {
-    /* header top  */
-    .header-top-area {
-        display: none;
-    }
-    /* fixed btn  */
-    .fixed-btn-area {
-        display: none;
+@media only screen and (max-width: 768px) {
+    .teach-top-area {
+        top: 55px;
+        width: 30%;
     }
     header .navber {
         width: 30%;
+        display: none;
     }
     header label {
         display: initial;
@@ -244,28 +231,92 @@
         background-color: var(--cyan);
     }
     .teach-top-area .navber ul {
-        width: 30%;
         background-color: azure;
+        display: block;
+        width: 100%;
+    }
+    .teach-top-area .navber .menu {
+        padding-left: 20px;
     }
     .teach-top-area .navber ul li ul {
         position: absolute;
         width: 150px;
-        left: 30%;
+        left: 100%;
+        padding: 0;
+    }
+    .teach-top-area .navber ul li ul li .all-laptop {
+        top: 30px;
+        left: 100%;
+    }
+    .teach-top-area .navber ul li ul li .gaming-laptop {
+        top: 60px;
+        left: 100%;
     }
     .teach-top-area .navber ul li .desktop {
-        top: 80px;
-        left: 30%;
+        top: 48px;
+        left: 100%;
+    }
+    .teach-top-area .navber ul li ul li .start-pc {
+        top: 64px;
+        left: 100%;
+    }
+    .teach-top-area .navber ul li ul li .gamming-pc {
+        top: 94px;
+        left: 100%;
+    }
+    .teach-top-area .navber ul li ul li .brand-pc {
+        top: 124px;
+        left: 100%;
+    }
+    .teach-top-area .navber ul li ul li .all-in {
+        top: 154px;
+        left: 100%;
+    }
+    .teach-top-area .navber ul li ul li .portable {
+        top: 184px;
+        left: 100%;
     }
 }
 
-@media only screen and (max-width: 1440px) {
-    .teach-top-area .navber ul li a {
-        color: var(--black-2);
-        display: block;
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 30px;
-        transition: all 0.3s linear 0s;
+@media only screen and (max-width: 425px) {
+    .teach-top-area {
+        top: 46px;
+        width: 50%;
+    }
+    .teach-top-area .navber ul li ul li .start-pc {
+        top: 60px;
+        left: 0;
+        box-shadow: 0 0 3px 2px var(--shadow);
+    }
+    .teach-top-area .navber ul li ul li .gamming-pc {
+        top: 90px;
+        left: 0;
+        box-shadow: 0 0 3px 2px var(--shadow);
+    }
+    .teach-top-area .navber ul li ul li .brand-pc {
+        top: 120px;
+        left: 0;
+        box-shadow: 0 0 3px 2px var(--shadow);
+    }
+    .teach-top-area .navber ul li ul li .all-in {
+        top: 150px;
+        left: 0;
+        box-shadow: 0 0 3px 2px var(--shadow);
+    }
+    .teach-top-area .navber ul li ul li .portable {
+        top: 180px;
+        left: 0;
+        box-shadow: 0 0 3px 2px var(--shadow);
+    }
+    .teach-top-area .navber ul li ul li .all-laptop {
+        top: 30px;
+        left: 0;
+        box-shadow: 0 0 3px 2px var(--shadow);
+    }
+    .teach-top-area .navber ul li ul li .gaming-laptop {
+        top: 60px;
+        left: 0;
+        box-shadow: 0 0 3px 2px var(--shadow);
     }
 }
 
@@ -278,7 +329,26 @@
     }
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1440px) {
+    .mb-header-tab-area {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mb-header-tab-area {
+        display: initial;
+    }
+    .header-top-area {
+        display: none;
+    }
+    .mb-header-tab-area .container {
+        max-width: 960px;
+    }
+    /* fixed-btn */
+    .fixed-btn-area {
+        display: none;
+    }
     .mb-header-tab-area {
         display: flex;
         position: fixed;
@@ -291,12 +361,6 @@
         box-shadow: 0 2px 2px var(--shadow);
         align-items: center;
         z-index: 9999;
-    }
-}
-
-@media (max-width: 1024px) {
-    .mb-header-tab-area .container {
-        max-width: 960px;
     }
 }
 
@@ -317,12 +381,15 @@
         max-width: 360px;
     }
     .mb-header-tab i {
-        font-size: 20px;
+        line-height: 63px;
     }
     .mb-header-tab .mb-header-logo {
         width: auto;
         height: 35px;
         margin-top: 10px;
+    }
+    .mbsearch i {
+        line-height: 41px;
     }
     .mbsearch {
         width: 50px;
@@ -349,8 +416,10 @@
     .btn-cart-show4 {
         right: 0;
     }
-    /* cart end */
 }
+
+
+/* cart end */
 
 @media only screen and (max-width: 375px) {
     .mb-header-tab-area .container {

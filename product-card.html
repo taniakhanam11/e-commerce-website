@@ -16,6 +16,7 @@
 <body>
     <!-- -------====== header section start  ======------- -->
     <header>
+        <!-- large header start  -->
         <div class="header-top-area bg-area">
             <div class="container">
                 <div class="header-top">
@@ -29,7 +30,7 @@
                         </div>
                     </div>
 
-                    <d iv class="header-right">
+                    <div class="header-right">
                         <div class="icon-cards">
                             <div class="header-right-icon">
                                 <a href="#"><i class="fa-solid fa-gift"></i></a>
@@ -71,11 +72,112 @@
                                 <a href="pc-builder.html" class="header-top-btn">PC Builder</a>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- large header end  -->
 
-        <!-- navber section start  -->
+        <!-- mb header start  -->
+        <div class="mb-header-tab-area bg-area">
+            <div class="container">
+                <div class="mb-header-tab">
+                    <label for="menu-bar">
+                <i class="fa-solid fa-bars"></i>
+               </label>
+                    <div class="mb-header-logo">
+                        <img src="images/logo-2-300x85.png" alt="">
+                    </div>
+                    <div class="mb-header-icon d-flex">
+                        <div class="mbsearch d-flex">
+                            <i class="fa-solid fa-magnifying-glass search"></i>
+                            <input type="text" placeholder="Search" id="search">
+                        </div>
+
+                        <div class="btn-cart4" onclick="showMenu4()">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                    <div class="cart-design4">
+                        <div class="cart-header4">
+                            <h2>YOUR CART</h2>
+                            <span class="close4" onclick="closeMenu4()"> 
+                            <i class="fa-solid fa-xmark"></i>
+                        </span>
+                        </div>
+                        <div class="content4">
+                            <div class="empty-content4">
+                                <p>Your shopping cart is empty!</p>
+                            </div>
+                        </div>
+                        <div class="cart-bottom4">
+                            <div class="promotion-code4">
+                                <div class="input-group4">
+                                    <input type="text" placeholder="Promo code" id="">
+                                    <span class="input-group-btn4">
+                                    <button class="btn" type="submit">Apply</button>
+                                </span>
+                                </div>
+                            </div>
+                            <div class="total">
+                                <div class="title">Sub-Total</div>
+                                <div class="amount">0৳</div>
+                            </div>
+                            <div class="total">
+                                <div class="title">Total</div>
+                                <div class="amount">0৳</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- mb header  end -->
+
+        <!-- mb bottom tab end -->
+        <div class="mb-bottom-tab-area bg-area">
+            <div class="container">
+                <div class="mb-bottom-tab">
+                    <a href="offers.html">
+                        <i class="fa-solid fa-gift"></i>
+                        <h5>Offers</h5>
+                    </a>
+                    <a href="deals.html">
+                        <i class="fa-solid fa-bolt"></i>
+                        <h5>Deals</h5>
+                    </a>
+                    <a href="pc-builder.html">
+                        <i class="fa-sharp fa-solid fa-desktop"></i>
+                        <h5>PC Builder</h5>
+                    </a>
+                    <div class="fixed-btn-compare3">
+                        <div class="btn-compare3" onclick="showMenu3()">
+                            <i class="fa-solid fa-copy"></i>
+                            <h5>Compare (0)</h5>
+                        </div>
+                        <div class="btn-compare-design3">
+                            <div class="cart-header3">
+                                <h2>Compare Product</h2>
+                                <span class="btn-compare-close3" onclick="closeMenu3()">
+                                <i class="fa-solid fa-xmark"></i>
+                            </span>
+                            </div>
+                            <div class="empty-content3">
+                                <p>Your compare list is empty</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="account.html">
+                        <i class="fa-solid fa-user"></i>
+                        <h5>Account</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- mb bottom tab end -->
+
+        <!-- mega start  -->
         <div class="teach-top-area bg-area">
             <div class="container">
                 <input type="checkbox" id="menu-bar">
@@ -310,103 +412,7 @@
                 </nav>
             </div>
         </div>
-        <!-- mb header start  -->
-        <div class="mb-header-tab-area">
-            <div class="container">
-                <div class="mb-header-tab">
-                    <label for="menu-bar">
-                    <i class="fa-solid fa-bars"></i>
-                   </label>
-                    <div class="mb-header-logo">
-                        <img src="images/logo-2-300x85.png" alt="">
-                    </div>
-                    <div class="mb-header-icon d-flex">
-                        <div class="mbsearch d-flex">
-                            <i class="fa-solid fa-magnifying-glass search"></i>
-                            <input type="text" placeholder="Search" id="search">
-                        </div>
-
-                        <div class="btn-cart4" onclick="showMenu4()">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </div>
-                    </div>
-                    <div class="cart-design4">
-                        <div class="cart-header4">
-                            <h2>YOUR CART</h2>
-                            <span class="close4" onclick="closeMenu4()"> 
-                                <i class="fa-solid fa-xmark"></i>
-                            </span>
-                        </div>
-                        <div class="content4">
-                            <div class="empty-content4">
-                                <p>Your shopping cart is empty!</p>
-                            </div>
-                        </div>
-                        <div class="cart-bottom4">
-                            <div class="promotion-code4">
-                                <div class="input-group4">
-                                    <input type="text" placeholder="Promo code" id="">
-                                    <span class="input-group-btn4">
-                                        <button class="btn" type="submit">Apply</button>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="total">
-                                <div class="title">Sub-Total</div>
-                                <div class="amount">0৳</div>
-                            </div>
-                            <div class="total">
-                                <div class="title">Total</div>
-                                <div class="amount">0৳</div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- mb header  end -->
-        <!-- mb bottom tab end -->
-        <div class="mb-bottom-tab-area">
-            <div class="container">
-                <div class="mb-bottom-tab">
-                    <a href="offers.html">
-                        <i class="fa-solid fa-gift"></i>
-                        <h5>Offers</h5>
-                    </a>
-                    <a href="deals.html">
-                        <i class="fa-solid fa-bolt"></i>
-                        <h5>Deals</h5>
-                    </a>
-                    <a href="pc-builder.html">
-                        <i class="fa-sharp fa-solid fa-desktop"></i>
-                        <h5>PC Builder</h5>
-                    </a>
-                    <div class="fixed-btn-compare3">
-                        <div class="btn-compare3" onclick="showMenu3()">
-                            <i class="fa-solid fa-copy"></i>
-                            <h5>Compare (0)</h5>
-                        </div>
-                        <div class="btn-compare-design3">
-                            <div class="cart-header3">
-                                <h2>Compare Product</h2>
-                                <span class="btn-compare-close3" onclick="closeMenu3()">
-                                    <i class="fa-solid fa-xmark"></i>
-                                </span>
-                            </div>
-                            <div class="empty-content3">
-                                <p>Your compare list is empty</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="account.html">
-                        <i class="fa-solid fa-user"></i>
-                        <h5>Account</h5>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- mb bottom tab end -->
+        <!-- mega end  -->
     </header>
     <!-- -------====== header section end  ======------- -->
 
@@ -625,7 +631,8 @@
                         <p class="specification-paragraph">The ZADAK TWSG3 128GB SSD comes with the PCIe Gen3 x4 NVMe 1.3 interface, Extreme performance controller enables TWSG3 SSD to deliver up to 1900/600 MB/s sequential read/write. Graphene has high thermal conductivity which allows
                             a fast rate of heat transfer. The graphene heatsink offers not only a stylish look but also 15% optimization of cooling performance. The ultra-compact size makes the TWSG3 perfectly compatible with both PC and laptop, bringing
                             extra storage and performance to meet gamers' demand. The built-in protection technology not only ensures users of a perfect high-speed experience, but also data integrity and stability. The ZADAK Widget shoe disk information,
-                            examines and reports on the status of your drives, and features read/write speed tests that allow you to monitor the driver's performance. It has 5-Year Limited Warranty (The SSD is based on the TBW or Warranty Period).</p>
+                            examines and reports on the status of your drives, and features read/write speed tests that allow you to monitor the driver's performance. It has 5-Year Limited Warranty (The SSD is based on the TBW or Warranty Period).
+                        </p>
 
                     </div>
                     <div class="what-is" id="what-is">
@@ -749,6 +756,15 @@
         </div>
     </section>
     <!-- ---------========== Specification section end==========--- -->
+    <!---------====== scroll button start  ======--------->
+    <section class="scroll-button-area bg-area">
+        <div class="container">
+            <button type="button" class="scroll-btn btn" id="btn-back-to-top">
+         <i class="fas fa-arrow-up"></i>
+        </button>
+        </div>
+    </section>
+    <!---------====== scroll button end  ======--------->
 
     <!-- -------====== fixed-btn start ======------- -->
     <div class="fixed-btn-area bg-area">
@@ -816,7 +832,6 @@
                     <div class="footer-header">
                         <h3>SUPPORT</h3>
                     </div>
-
                     <div class="row">
                         <div class="col-12">
                             <div class="footer-btn">
@@ -909,8 +924,6 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
     </footer>
     <!-- -------====== footer section end ======------- -->
@@ -931,11 +944,8 @@
     <!-- -------====== copyright ======------- -->
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="js/bootstrap.min.js "></script>
-    <script src="js/script.js "></script>
-    <!-- top-search start  -->
 
+    <!-- top-search start  -->
     <script>
         let search = document.querySelector(".search");
         search.onclick = function() {
@@ -1036,8 +1046,42 @@
             });
         });
     </script>
-
     <!-- image zoom end  -->
+
+    <!-- scroll button start  -->
+    <script>
+        let mybutton = document.getElementById("btn-back-to-top");
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        mybutton.addEventListener("click", backToTop);
+
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- scroll button end  -->
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/script.js "></script>
 
 </body>
 
